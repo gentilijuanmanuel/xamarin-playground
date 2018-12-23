@@ -138,6 +138,9 @@
       <HintPath>..\packages\Xamarin.Forms.3.4.0.1008975\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android.Export" />
+    <Reference Include="MLToolkit.Forms.SwipeCardView">
+      <HintPath>..\packages\MLToolkit.Forms.SwipeCardView.2.0.0\lib\netstandard2.0\MLToolkit.Forms.SwipeCardView.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />

@@ -28,7 +28,7 @@ namespace SwipeCardViewExample.Core.ViewModels
             return base.Initialize();
         }
 
-        //Public properties
+        //Properties
         private ObservableCollection<Profile> _profiles = new ObservableCollection<Profile>();
         public ObservableCollection<Profile> Profiles
         {
