@@ -1,4 +1,5 @@
 ﻿using MvvmCross.Forms.Views;
+using SwipeCardViewExample.Core.Parameters;
 using SwipeCardViewExample.Core.ViewModels;
 using Xamarin.Forms.Xaml;
 

@@ -6,13 +6,35 @@
     xmlns:mvx="clr-namespace:MvvmCross.Forms.Bindings;assembly=MvvmCross.Forms"
     xmlns:swipeCardView="clr-namespace:MLToolkit.Forms.SwipeCardView;assembly=MLToolkit.Forms.SwipeCardView"
     xmlns:viewModels="clr-namespace:SwipeCardViewExample.Core.ViewModels;assembly=SwipeCardViewExample.Core"
+    xmlns:converters="clr-namespace:SwipeCardViewExample.Forms.UI.Converters"
+    xmlns:behaviors="clr-namespace:Behaviors;assembly=Behaviors"
+    xmlns:local="clr-namespace:SwipeCardViewExample.Forms.UI.Behaviors"
     x:Class="SwipeCardViewExample.Forms.UI.Views.SimpleCardView">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:SwipedCardEventArgsToStringsConverter x:Key="SwipedCardEventArgsToStringsConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout Padding="10">
-            <swipeCardView:SwipeCardView 
+        <StackLayout
+            Padding="10">
+            <swipeCardView:SwipeCardView
                 ItemsSource="{Binding CardItems}"
-                SwipedCommand="{Binding SwipedCommand}"
+                SwipedCommand="SwipedCommand"
+                SwipedCommandParameter="{}"
                 VerticalOptions="FillAndExpand">
+                <!--<swipeCardView:SwipeCardView.Behaviors>
+                    <behaviors:EventHandlerBehavior EventName="Swiped">
+                        <behaviors:InvokeCommandAction Command="{Binding SwipedCommand}"
+                                                       Converter="{StaticResource SwipedCardEventArgsToStringsConverter}" />
+                    </behaviors:EventHandlerBehavior>
+                </swipeCardView:SwipeCardView.Behaviors>-->
+                <swipeCardView:SwipeCardView.Behaviors>
+                    <local:EventToCommandBehavior
+                        EventName="Swiped"
+                        Command="{Binding SwipedCommand}"
+                        Converter="{StaticResource SwipedCardEventArgsToStringsConverter}" />
+                </swipeCardView:SwipeCardView.Behaviors>
                 <swipeCardView:SwipeCardView.ItemTemplate>
                     <DataTemplate>
                         <Label

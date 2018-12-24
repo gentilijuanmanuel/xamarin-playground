@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Compile Remove="Class1.cs" />
+    <Compile Remove="Behaviors\SwipeCommandBehavior.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MvvmCross.Forms" Version="6.2.2" />
@@ -17,5 +18,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
+    <Folder Include="Converters\" />
+    <Folder Include="Behaviors\" />
   </ItemGroup>
 </Project>

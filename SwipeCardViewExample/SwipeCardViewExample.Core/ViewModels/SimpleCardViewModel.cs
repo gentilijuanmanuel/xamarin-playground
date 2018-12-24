@@ -2,6 +2,7 @@
 using System.Windows.Input;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
+using SwipeCardViewExample.Core.Parameters;
 
 namespace SwipeCardViewExample.Core.ViewModels
 {
@@ -14,10 +15,7 @@ namespace SwipeCardViewExample.Core.ViewModels
         {
             this.InitializeCards();
 
-            //TODO: implement with MVxInteraction
-            //this.SwipedCommand = new MvxCommand<SwipedCardEventArgs>(this.Swipe);
-
-            this.SwipedCommand = new MvxCommand(this.Swipe);
+            this.SwipedCommand = new MvxCommand<SwipedDirection>(this.Swipe);
 
             this.ClearItemsCommand = new MvxCommand(this.ClearItems);
             this.AddItemsCommand = new MvxCommand(this.AddItems);
@@ -49,7 +47,7 @@ namespace SwipeCardViewExample.Core.ViewModels
         }
 
         //Commands
-        public ICommand SwipedCommand { get; }
+        public MvxCommand<SwipedDirection> SwipedCommand { get; }
 
         public ICommand ClearItemsCommand { get; }
 
@@ -72,14 +70,12 @@ namespace SwipeCardViewExample.Core.ViewModels
         private void AddItems()
         {
             for (var i = 1; i <= 5; i++)
-            {
                 this.CardItems.Add($"Card {i}");
-            }
         }
 
-        private void Swipe()
+        private void Swipe(SwipedDirection swipedDirection)
         {
-             
+             this.Message = $"{swipedDirection.Item} swiped {swipedDirection.Direction}";
         }
     }
 }
