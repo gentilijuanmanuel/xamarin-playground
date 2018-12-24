@@ -137,6 +137,23 @@
       <Name>SwipeCardViewExample.Forms.UI</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\p327144.jpg" />
+    <BundleResource Include="Resources\p378674.jpg" />
+    <BundleResource Include="Resources\p398931.jpg" />
+    <BundleResource Include="Resources\p401107.jpg" />
+    <BundleResource Include="Resources\p453095.jpg" />
+    <BundleResource Include="Resources\p458914.jpg" />
+    <BundleResource Include="Resources\p467499.jpg" />
+    <BundleResource Include="Resources\p474893.jpg" />
+    <BundleResource Include="Resources\p497489.jpg" />
+    <BundleResource Include="Resources\p503001.jpg" />
+    <BundleResource Include="Resources\p589739.jpg" />
+    <BundleResource Include="Resources\p597956.jpg" />
+    <BundleResource Include="Resources\p627958.jpg" />
+    <BundleResource Include="Resources\p705193.jpg" />
+    <BundleResource Include="Resources\p731150.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.3.4.0.1008975\build\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.3.4.0.1008975\build\Xamarin.Forms.targets')" />
 </Project>

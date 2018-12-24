@@ -157,6 +157,21 @@
     <AndroidResource Include="Resources\layout\Tabbar.axml" />
     <AndroidResource Include="Resources\layout\Toolbar.axml" />
     <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\drawable\p327144.jpg" />
+    <AndroidResource Include="Resources\drawable\p378674.jpg" />
+    <AndroidResource Include="Resources\drawable\p398931.jpg" />
+    <AndroidResource Include="Resources\drawable\p401107.jpg" />
+    <AndroidResource Include="Resources\drawable\p453095.jpg" />
+    <AndroidResource Include="Resources\drawable\p458914.jpg" />
+    <AndroidResource Include="Resources\drawable\p467499.jpg" />
+    <AndroidResource Include="Resources\drawable\p474893.jpg" />
+    <AndroidResource Include="Resources\drawable\p497489.jpg" />
+    <AndroidResource Include="Resources\drawable\p503001.jpg" />
+    <AndroidResource Include="Resources\drawable\p589739.jpg" />
+    <AndroidResource Include="Resources\drawable\p597956.jpg" />
+    <AndroidResource Include="Resources\drawable\p627958.jpg" />
+    <AndroidResource Include="Resources\drawable\p705193.jpg" />
+    <AndroidResource Include="Resources\drawable\p731150.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\mipmap-hdpi\" />

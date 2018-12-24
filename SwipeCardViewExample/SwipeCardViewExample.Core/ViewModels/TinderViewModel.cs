@@ -1,5 +1,4 @@
 ﻿using System.Collections.ObjectModel;
-using System.Threading.Tasks;
 using System.Windows.Input;
 using MvvmCross.Commands;
 using MvvmCross.ViewModels;
@@ -10,6 +9,7 @@ namespace SwipeCardViewExample.Core.ViewModels
     public class TinderViewModel : MvxViewModel
     {
         //Private properties
+        private ObservableCollection<Profile> profiles = new ObservableCollection<Profile>();
 
         //Constructor
         public TinderViewModel()
@@ -20,33 +20,14 @@ namespace SwipeCardViewExample.Core.ViewModels
         }
 
         //MvvmCross lifecycle
-        public override Task Initialize()
-        {
-            //Mvxinteraction to the code behind
-            //Threshold = (uint)(App.ScreenWidth / 3);
-
-            return base.Initialize();
-        }
 
         //Properties
-        private ObservableCollection<Profile> _profiles = new ObservableCollection<Profile>();
         public ObservableCollection<Profile> Profiles
         {
-            get => _profiles;
+            get => profiles;
             set
             {
-                _profiles = value;
-                RaisePropertyChanged();
-            }
-        }
-
-        private uint _threshold;
-        public uint Threshold
-        {
-            get => _threshold;
-            set
-            {
-                _threshold = value;
+                profiles = value;
                 RaisePropertyChanged();
             }
         }
@@ -90,7 +71,7 @@ namespace SwipeCardViewExample.Core.ViewModels
         }
 
         private void Swipe()
-        { 
+        {
         }
 
         private void Drag()

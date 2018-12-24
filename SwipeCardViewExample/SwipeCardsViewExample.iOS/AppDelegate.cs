@@ -11,6 +11,9 @@ namespace SwipeCardsViewExample.iOS
     {
         public override bool FinishedLaunching(UIApplication uiApplication, NSDictionary launchOptions)
         {
+            FormsApp.ScreenWidth = UIScreen.MainScreen.Bounds.Width;
+            FormsApp.ScreenHeight = UIScreen.MainScreen.Bounds.Height;
+
             return base.FinishedLaunching(uiApplication, launchOptions);
         }
     }

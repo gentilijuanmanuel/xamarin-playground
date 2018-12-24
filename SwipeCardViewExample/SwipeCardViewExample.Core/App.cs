@@ -9,7 +9,7 @@ namespace SwipeCardViewExample.Core
         {
             base.Initialize();
 
-            RegisterAppStart<SimpleCardViewModel>();
+            RegisterAppStart<TinderViewModel>();
         }
     }
 }

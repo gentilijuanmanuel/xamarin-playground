@@ -23,12 +23,6 @@
                 SwipedCommand="SwipedCommand"
                 SwipedCommandParameter="{}"
                 VerticalOptions="FillAndExpand">
-                <!--<swipeCardView:SwipeCardView.Behaviors>
-                    <behaviors:EventHandlerBehavior EventName="Swiped">
-                        <behaviors:InvokeCommandAction Command="{Binding SwipedCommand}"
-                                                       Converter="{StaticResource SwipedCardEventArgsToStringsConverter}" />
-                    </behaviors:EventHandlerBehavior>
-                </swipeCardView:SwipeCardView.Behaviors>-->
                 <swipeCardView:SwipeCardView.Behaviors>
                     <local:EventToCommandBehavior
                         EventName="Swiped"

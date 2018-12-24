@@ -10,18 +10,110 @@
     <ContentPage.Content>
         <StackLayout
             Padding="10">
-            <swipeCardView:SwipeCardView 
-                ItemsSource="{Binding ProfileItems}"
+            <swipeCardView:SwipeCardView
+                x:Name="SwipeCardView"
+                ItemsSource="{Binding Profiles}"
+                HorizontalOptions="FillAndExpand" 
+                VerticalOptions="FillAndExpand"
+                Padding="10"
                 SwipedCommand="{Binding SwipedCommand}"
-                VerticalOptions="FillAndExpand">
+                DraggingCommand="{Binding DraggingCommand}"
+                SupportedSwipeDirections="Left, Right, Up"
+                SupportedDraggingDirections="Left, Right, Up, Down">
                 <swipeCardView:SwipeCardView.ItemTemplate>
                     <DataTemplate>
-                        <Label
-                            Text="{Binding .}"
-                            FontSize="Large"
-                            HorizontalTextAlignment="Center"
-                            VerticalTextAlignment="Center"
-                            BackgroundColor="Beige" />
+                        <StackLayout
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand">
+                            <Frame
+                                CornerRadius="10"
+                                Padding="0"
+                                HorizontalOptions="FillAndExpand"
+                                VerticalOptions="FillAndExpand">
+                                <AbsoluteLayout>
+                                    <Image
+                                        Source="{Binding Photo}"
+                                        Aspect="AspectFill" 
+                                        AbsoluteLayout.LayoutBounds=".5,0.5,1,1"
+                                        AbsoluteLayout.LayoutFlags="All"/>
+                                    <Frame
+                                        x:Name="LikeFrame"
+                                        BorderColor="#63DD99"
+                                        BackgroundColor="Transparent"
+                                        Padding="0"
+                                        CornerRadius="20"
+                                        AbsoluteLayout.LayoutBounds="0.1,.1, 150, 50"
+                                        AbsoluteLayout.LayoutFlags="PositionProportional"
+                                        Rotation="-20"
+                                        Opacity="0">
+                                        <Label
+                                            x:Name="LikeText"
+                                            Text="LIKE"
+                                            TextColor="#63DD99"
+                                            BackgroundColor="Transparent"
+                                            HorizontalTextAlignment="Center"
+                                            VerticalTextAlignment="Center"
+                                            VerticalOptions="CenterAndExpand"
+                                            FontSize="32"/>
+                                    </Frame>
+                                    <Frame
+                                        x:Name="NopeFrame"
+                                        BorderColor="#FF6A4F"
+                                        BackgroundColor="Transparent"
+                                        Padding="0"
+                                        CornerRadius="20"
+                                        AbsoluteLayout.LayoutBounds="0.9,.1, 150, 50"
+                                        AbsoluteLayout.LayoutFlags="PositionProportional"
+                                        Rotation="20"
+                                        Opacity="0">
+                                        <Label
+                                            Text="NOPE"
+                                            TextColor="#FF6A4F"
+                                            BackgroundColor="Transparent"
+                                            HorizontalTextAlignment="Center"
+                                            VerticalTextAlignment="Center"
+                                            VerticalOptions="CenterAndExpand"
+                                            FontSize="32"/>
+                                    </Frame>
+                                    <Frame
+                                        x:Name="SuperLikeFrame"
+                                        BorderColor="#2196F3"
+                                        BackgroundColor="Transparent"
+                                        Padding="0"
+                                        CornerRadius="20"
+                                        AbsoluteLayout.LayoutBounds="0.5,.7, 150, 100"
+                                        AbsoluteLayout.LayoutFlags="PositionProportional"
+                                        Rotation="-20"
+                                        Opacity="0">
+                                        <Label
+                                            Text="SUPER LIKE"
+                                            TextColor="#2196F3"
+                                            BackgroundColor="Transparent"
+                                            HorizontalTextAlignment="Center"
+                                            VerticalTextAlignment="Center"
+                                            VerticalOptions="CenterAndExpand"
+                                            FontSize="32"/>
+                                    </Frame>
+                                    <Label
+                                        FontSize="Large"
+                                        FontAttributes="Bold"
+                                        TextColor="White"
+                                        AbsoluteLayout.LayoutBounds="0.1,0.95, 150, 30"
+                                        AbsoluteLayout.LayoutFlags="PositionProportional" >
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span
+                                                    Text="{Binding Name}"/>
+                                                <Span
+                                                    Text=", "/>
+                                                <Span
+                                                    Text="{Binding Age}"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </AbsoluteLayout>
+                            </Frame>
+                        </StackLayout>
                     </DataTemplate>
                 </swipeCardView:SwipeCardView.ItemTemplate>
             </swipeCardView:SwipeCardView>
