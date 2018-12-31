@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XAMLPractice.PartTwoPage"
+    Title="Grid Demo Page">
+    <!--1. Object element:
+        Label is an object element. It is a Xamarin.Forms object expressed as an XML element.
+        
+        2. Property attributes:
+        Text, VerticalOptions, FontAttributes and FontSize are property attributes. They are Xamarin.Forms properties expressed as XML attributes.
+        
+        3. Property element:
+        In that final snippet, TextColor has become a property element. It is a Xamarin.Forms property but it is now an XML element.
+        
+        4. Attached properties:
+        Judging solely from the syntax, these Grid.Row, Grid.Column, Grid.RowSpan, and Grid.ColumnSpan attributes appear to be static fields or properties of Grid, but interestingly enough, Grid does not define anything named Row, Column, RowSpan, or ColumnSpan.
+        Instead, Grid defines four bindable properties named RowProperty, ColumnProperty, RowSpanProperty, and ColumnSpanProperty.
+        These are special types of bindable properties known as attached properties. They are defined by the Grid class but set on children of the Grid.-->
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+            <Label
+                Text="Autosized cell"
+                Grid.Row="0"
+                Grid.Column="0"
+                TextColor="White"
+                BackgroundColor="Blue" />
+            <BoxView
+                Color="Silver"
+                HeightRequest="0"
+                Grid.Row="0"
+                Grid.Column="1" />
+            <BoxView
+                Color="Teal"
+                Grid.Row="1"
+                Grid.Column="0" />
+            <Label
+                Text="Leftover space"
+                Grid.Row="1"
+                Grid.Column="1"
+                TextColor="Purple"
+                BackgroundColor="Aqua"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center" />
+            <Label
+                Text="Span two rows (or more if you want)"
+                Grid.Row="0"
+                Grid.Column="2"
+                Grid.RowSpan="2"
+                TextColor="Yellow"
+                BackgroundColor="Blue"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center" />
+            <Label
+                Text="Span two columns"
+                Grid.Row="2"
+                Grid.Column="0"
+                Grid.ColumnSpan="2"
+                TextColor="Blue"
+                BackgroundColor="Yellow"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center" />
+            <Label
+                Text="Fixed 100x100"
+                Grid.Row="2" Grid.Column="2"
+                TextColor="Aqua"
+                BackgroundColor="Red"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

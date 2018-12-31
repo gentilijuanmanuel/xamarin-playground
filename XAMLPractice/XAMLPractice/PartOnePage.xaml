@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="XAMLPractice.PartOnePage"
+    Title="XAML + Code Page">
+    <ContentPage.Content>
+        <StackLayout>
+            <Slider
+                VerticalOptions="CenterAndExpand"
+                Margin="30,30,30,30"
+                ValueChanged="OnSliderValueChanged"/>
+            <Label
+                x:Name="valueLabel"
+                Font="Large"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" />
+            <Button
+                Text="Click Me!"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand"
+                Clicked="OnButtonClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

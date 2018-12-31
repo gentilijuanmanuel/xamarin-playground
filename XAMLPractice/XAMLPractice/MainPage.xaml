@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:XAMLPractice"
+    x:Class="XAMLPractice.MainPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Label
+            Grid.Row="1"
+            HorizontalOptions="Center"
+            Text="XAML basics"
+            FontSize="Large"/>
+        <Button
+            Grid.Row="2"
+            Text="Part 1. Get started"
+            Clicked="PartOneButtonClicked"/>
+        <Button
+            Grid.Row="3"
+            Text="Part 2. Essential XAML syntax"
+            Clicked="PartTwoButtonClicked"/>
+        <Button
+            Grid.Row="4"
+            Text="Part 3. XAML markup extensions"
+            Clicked="PartThreeButtonClicked"/>
+         <Button
+            Grid.Row="5"
+            Text="Part 4. Data binding basics"
+            Clicked="PartFourButtonClicked"/>
+        <Button
+            Grid.Row="6"
+            Text="Part 5. Form Data Binding to MVVM"
+            Clicked="PartFiveButtonClicked"/>
+    </Grid>
+</ContentPage>
