@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitcoinOnboardingApp.Core",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitcoinOnboardingApp.UI", "BitcoinOnboardingApp.UI\BitcoinOnboardingApp.UI.csproj", "{853D94CE-B646-45B6-8D6A-65A4CDFBC014}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitcoinOnboardingApp.iOS", "BitcoinOnboardingApp.iOS\BitcoinOnboardingApp.iOS.csproj", "{FE563993-9D45-4404-8137-7F47CA612CEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,5 +51,21 @@ Global
 		{853D94CE-B646-45B6-8D6A-65A4CDFBC014}.Ad-Hoc|iPhone.Build.0 = Debug|Any CPU
 		{853D94CE-B646-45B6-8D6A-65A4CDFBC014}.AppStore|iPhone.ActiveCfg = Debug|Any CPU
 		{853D94CE-B646-45B6-8D6A-65A4CDFBC014}.AppStore|iPhone.Build.0 = Debug|Any CPU
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.Release|Any CPU.Build.0 = Release|iPhone
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.Debug|iPhone.Build.0 = Debug|iPhone
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.Release|iPhone.ActiveCfg = Release|iPhone
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.Release|iPhone.Build.0 = Release|iPhone
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.Ad-Hoc|iPhone.ActiveCfg = Release|iPhone
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.Ad-Hoc|iPhone.Build.0 = Release|iPhone
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.AppStore|iPhone.ActiveCfg = Release|iPhone
+		{FE563993-9D45-4404-8137-7F47CA612CEF}.AppStore|iPhone.Build.0 = Release|iPhone
 	EndGlobalSection
 EndGlobal

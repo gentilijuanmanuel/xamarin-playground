@@ -19,13 +19,13 @@ namespace BitcoinOnboardingApp.Core.ViewModels
         }
 
         //Properties
-        public List<IntroductionItemViewModel> IntroductionItems { get; set; } = new List<IntroductionItemViewModel>();
+        public List<OnboardingItemViewModel> IntroductionItems { get; set; } = new List<OnboardingItemViewModel>();
 
         private void AddIntroductionItems()
         {
-            this.IntroductionItems.Add(new IntroductionItemViewModel("Take  a photo", "with your phone or camera", "ic_take_photo"));
-            this.IntroductionItems.Add(new IntroductionItemViewModel("Join", "to our network", "ic_network"));
-            this.IntroductionItems.Add(new IntroductionItemViewModel("And", "make money!", "ic_make_money"));
+            this.IntroductionItems.Add(new OnboardingItemViewModel("Take  a photo", "with your phone or camera", "ic_take_photo"));
+            this.IntroductionItems.Add(new OnboardingItemViewModel("Join", "to our network", "ic_network"));
+            this.IntroductionItems.Add(new OnboardingItemViewModel("And", "make money!", "ic_make_money"));
         }
     }
 }

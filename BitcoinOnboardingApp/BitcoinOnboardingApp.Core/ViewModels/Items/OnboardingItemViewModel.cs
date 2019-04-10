@@ -1,8 +1,8 @@
 ﻿namespace BitcoinOnboardingApp.Core.ViewModels.Items
 {
-    public class IntroductionItemViewModel
+    public class OnboardingItemViewModel
     {
-        public IntroductionItemViewModel(string topText, string endText, string imagePath)
+        public OnboardingItemViewModel(string topText, string endText, string imagePath)
         {
             this.TopText = topText;
             this.EndText = endText;
