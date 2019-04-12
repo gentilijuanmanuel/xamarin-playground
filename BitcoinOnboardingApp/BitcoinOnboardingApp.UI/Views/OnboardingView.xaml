@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage
-    xmlns="http://xamarin.com/schemas/2014/forms"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+<views:MvxContentPage x:TypeArguments="viewModels:OnboardingViewModel"
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+    xmlns:mvx="clr-namespace:MvvmCross.Forms.Bindings;assembly=MvvmCross.Forms"
+    xmlns:viewModels="clr-namespace:BitcoinOnboardingApp.Core.ViewModels;assembly=BitcoinOnboardingApp.Core"
     x:Class="BitcoinOnboardingApp.UI.Views.OnboardingView">
     <ContentPage.Content>
+            <StackLayout Margin="10">
+                <Label Text="holaaaa!!!"/>
+            </StackLayout>
     </ContentPage.Content>
-</ContentPage>
+</views:MvxContentPage>

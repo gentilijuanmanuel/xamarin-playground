@@ -1,8 +1,9 @@
-﻿using Xamarin.Forms;
+﻿using BitcoinOnboardingApp.Core.ViewModels;
+using MvvmCross.Forms.Views;
 
 namespace BitcoinOnboardingApp.UI.Views
 {
-    public partial class OnboardingView : ContentPage
+    public partial class OnboardingView : MvxContentPage<OnboardingViewModel>
     {
         public OnboardingView()
         {
