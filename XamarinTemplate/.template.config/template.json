@@ -13,7 +13,7 @@
     "vsmac-category": "multiplat/app/forms"
   },
   "shortName": "XamarinTemplate",
-  "sourceName": "XamarinTemplate.Core",
+  "sourceName": "XamarinTemplate",
   "guids": [
     "{4E999703-ADE0-4819-B309-378651B8F5DD}",
     "{2350669D-EB5C-4E8A-84B5-003F8082FA66}",
