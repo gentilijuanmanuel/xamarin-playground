@@ -1,0 +1,48 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Juan Manuel Gentili",
+  "classifications": [],
+  "description": "Xamarin template with MvvmCross",
+  "name": "XamarinTemplate",
+  "defaultName": "XamarinTemplate",
+  "identity": "MyTemplate.XamarinTemplate.Core.CSharp",
+  "groupIdentity": "MyTemplate.XamarinTemplate.Core",
+  "tags": {
+    "language": "C#",
+    "type": "project",
+    "vsmac-category": "multiplat/app/forms"
+  },
+  "shortName": "XamarinTemplate",
+  "sourceName": "XamarinTemplate.Core",
+  "guids": [
+    "{4E999703-ADE0-4819-B309-378651B8F5DD}",
+    "{2350669D-EB5C-4E8A-84B5-003F8082FA66}",
+    "{4FF590F1-AF98-43EF-B1A7-D57DDFCA57BE}",
+    "{42322EF6-D329-4C54-990E-C574CF618912}"
+  ],
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            ".vs/**/*"
+          ]
+        }
+      ]
+    }
+  ],
+  "primaryOutputs": [
+    {
+      "path": "XamarinTemplate.Core/XamarinTemplate.Core.csproj"
+    },
+    {
+      "path": "XamarinTemplate.Droid/XamarinTemplate.Droid.csproj"
+    },
+    {
+      "path": "XamarinTemplate.iOS/XamarinTemplate.iOS.csproj"
+    },
+    {
+      "path": "XamarinTemplate.UI/XamarinTemplate.UI.csproj"
+    }
+  ]
+}
