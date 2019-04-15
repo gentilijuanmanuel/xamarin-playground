@@ -1,9 +1,10 @@
 ﻿using Android.App;
-using Android.Widget;
 using Android.OS;
 using MvvmCross.Forms.Platforms.Android.Views;
 using MvvmCross.Forms.Platforms.Android.Core;
 using Android.Content.PM;
+using CarouselView.FormsPlugin.Android;
+using Lottie.Forms.Droid;
 
 namespace BitcoinOnboardingApp.Droid
 {
@@ -17,6 +18,11 @@ namespace BitcoinOnboardingApp.Droid
     {
         protected override void OnCreate(Bundle bundle)
         {
+            global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            CarouselViewRenderer.Init();
+            AnimationViewRenderer.Init();
+
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
             base.OnCreate(bundle);

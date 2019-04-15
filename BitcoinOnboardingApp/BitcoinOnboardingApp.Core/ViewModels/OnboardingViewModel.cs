@@ -7,10 +7,7 @@ namespace BitcoinOnboardingApp.Core.ViewModels
 {
     public class OnboardingViewModel : MvxViewModel
     {
-        public OnboardingViewModel()
-        {
-        }
-
+        //Mvx life-cycle
         public override Task Initialize()
         {
             this.AddIntroductionItems();
@@ -23,9 +20,9 @@ namespace BitcoinOnboardingApp.Core.ViewModels
 
         private void AddIntroductionItems()
         {
-            this.IntroductionItems.Add(new OnboardingItemViewModel("Take  a photo", "with your phone or camera", "ic_take_photo"));
-            this.IntroductionItems.Add(new OnboardingItemViewModel("Join", "to our network", "ic_network"));
-            this.IntroductionItems.Add(new OnboardingItemViewModel("And", "make money!", "ic_make_money"));
+            this.IntroductionItems.Add(new OnboardingItemViewModel("Take a photo...", "...with your phone", "ic_camera.json"));
+            this.IntroductionItems.Add(new OnboardingItemViewModel("Join...", "...to our network", "ic_network.json"));
+            this.IntroductionItems.Add(new OnboardingItemViewModel("", "...and make money!", "ic_money.json"));
         }
     }
 }

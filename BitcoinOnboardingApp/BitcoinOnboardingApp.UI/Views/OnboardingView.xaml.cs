@@ -9,5 +9,7 @@ namespace BitcoinOnboardingApp.UI.Views
         {
             InitializeComponent();
         }
+
+        private void ShowPopUp(object sender, System.EventArgs e) => DisplayAlert("Hello!", "Not implemented yet :(", "Ok");
     }
 }

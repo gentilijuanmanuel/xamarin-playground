@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"  
+    x:Class="BitcoinOnboardingApp.UI.Cells.OnboardingItemView">
+    <ContentView.Resources>
+        <!-- Styles -->
+        <Style TargetType="Label" x:Key="topDescriptionLabel">
+            <Setter Property="Margin" Value="20,40,20,20" />
+            <Setter Property="TextColor" Value="#898888" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="HorizontalOptions" Value="Start" />
+            <Setter Property="VerticalOptions" Value="Start" />
+            <Setter Property="Font" Value="Bold" />
+        </Style>
+        <Style TargetType="Label" x:Key="endDescriptionLabel">
+            <Setter Property="Margin" Value="20,20,20,30" />
+            <Setter Property="TextColor" Value="#898888" />
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="HorizontalOptions" Value="End" />
+            <Setter Property="VerticalOptions" Value="End" />
+            <Setter Property="Font" Value="Bold" />
+        </Style>
+    </ContentView.Resources>
+    <ContentView.Content>
+        <StackLayout
+            Margin="10">
+            <Label
+                Style="{StaticResource topDescriptionLabel}"
+                FontFamily="{StaticResource HeadlineFont}"
+                Text="{Binding TopText}"/>
+            <forms:AnimationView
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                WidthRequest="250"
+                HeightRequest="250"
+                Loop="True"
+                AutoPlay="True"
+                Animation="{Binding AnimationPath}"/>
+            <Label
+                Style="{StaticResource endDescriptionLabel}"
+                FontFamily="{StaticResource HeadlineFont}"
+                Text="{Binding EndText}"/>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
