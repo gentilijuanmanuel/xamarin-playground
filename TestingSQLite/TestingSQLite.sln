@@ -1,9 +1,9 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingSQLite.Android", "TestingSQLite.Core.Android\TestingSQLite.Android.csproj", "{2F62518D-41B4-4A4A-AD62-BAA76191484E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingSQLite.Android", "TestingSQLite.Android\TestingSQLite.Android.csproj", "{2F62518D-41B4-4A4A-AD62-BAA76191484E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingSQLite.iOS", "TestingSQLite.Core.iOS\TestingSQLite.iOS.csproj", "{1150BDF9-1B9F-42B0-987F-51590437F822}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingSQLite.iOS", "TestingSQLite.iOS\TestingSQLite.iOS.csproj", "{1150BDF9-1B9F-42B0-987F-51590437F822}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingSQLite.Core", "TestingSQLite.Core\TestingSQLite.Core.csproj", "{BC2B3679-7ED8-40DD-8F05-1377115DFC6A}"
 EndProject
