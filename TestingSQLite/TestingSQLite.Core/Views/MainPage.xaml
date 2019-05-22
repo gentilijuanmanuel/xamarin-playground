@@ -2,7 +2,23 @@
 <ContentPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converters="clr-namespace:TestingSQLite.Core.Converters"
     x:Class="TestingSQLite.Core.Views.MainPage">
     <ContentPage.Content>
+        <ListView
+            RowHeight="80"
+            ItemsSource="{Binding Employees}">
+            <ListView.ItemTemplate>
+              <DataTemplate>
+                <ViewCell Height="50">
+                    <StackLayout>
+                        <Label Text="{Binding Name}"/>
+                        <Label Text="{Binding Age}"/>
+                        <Label Text="{Binding Designation}"/>
+                    </StackLayout>
+                </ViewCell>
+              </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </ContentPage.Content>
 </ContentPage>
