@@ -10,7 +10,6 @@ namespace XAMLPractice
         public App()
         {
             InitializeComponent();
-
             MainPage = new NavigationPage(new MainPage());
         }
     }
