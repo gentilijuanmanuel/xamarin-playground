@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:OfflineFirstPOC.Core"
+    x:Class="OfflineFirstPOC.Core.Views.MainPage"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
+    ios:Page.UseSafeArea="true"
+    Title="Books">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem
+            Text="Add New"
+            Clicked="OnAddNewBook" />
+        <ToolbarItem
+            Text="Refresh"
+            Command="{Binding RefreshBooksCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ListView
+        ItemsSource="{Binding Books}"
+        ItemTapped="OnEditBook">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell
+                    Text="{Binding Title}"
+                    Detail="{Binding Description}">
+                    <TextCell.ContextActions>
+                        <MenuItem
+                            Clicked="OnDeleteBook"
+                            CommandParameter="{Binding}"
+                            Text="Delete"
+                            IsDestructive="True" />
+                    </TextCell.ContextActions>
+                </TextCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
