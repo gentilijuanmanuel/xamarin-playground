@@ -13,7 +13,6 @@
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
     <Folder Include="$(MSBuildThisFileDirectory)Models\" />
     <Folder Include="$(MSBuildThisFileDirectory)Models\Realm\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Converters\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml">
@@ -34,7 +33,6 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\MainViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Realm\Book.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Converters\DateTimeOffsetToStringConverter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\AddEditBookPage.cs" />
   </ItemGroup>
 </Project>

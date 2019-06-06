@@ -20,7 +20,7 @@ namespace OfflineFirstPOC.Core
         {
             if(e.NetworkAccess == NetworkAccess.Internet)
             {
-                RunSync(); 
+                RunSync();
             }
         }
 
