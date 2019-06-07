@@ -1,0 +1,1533 @@
+2019-06-06T16:45:10.074Z - info: Realm Object Server version 3.21.1 is starting
+2019-06-06T16:45:10.160Z - detail: Starting service sync
+2019-06-06T16:45:10.160Z - info: [sync] Configuring SyncService with a custom dataPath is deprecated and will be removed in a future version and the value will default to 'sync', relative to the server's dataPath.
+2019-06-06T16:45:10.161Z - detail: Starting service auth
+2019-06-06T16:45:10.162Z - detail: Starting service realms
+2019-06-06T16:45:10.163Z - detail: Starting service log
+2019-06-06T16:45:10.164Z - detail: Starting service permissions
+2019-06-06T16:45:10.164Z - detail: Starting service health
+2019-06-06T16:45:10.164Z - detail: Starting service welcome
+2019-06-06T16:45:10.165Z - detail: Starting service password-auth-ui
+2019-06-06T16:45:10.166Z - detail: Starting service stats
+2019-06-06T16:45:10.168Z - detail: Started service welcome
+2019-06-06T16:45:10.168Z - detail: Started service stats
+2019-06-06T16:45:10.169Z - detail: Started service health
+2019-06-06T16:45:10.169Z - detail: Started service password-auth-ui
+2019-06-06T16:45:10.172Z - debug: [sync/stats] Started listening for stats on 127.0.0.1:59152
+2019-06-06T16:45:10.179Z - info: [sync] Precheck: Started ([realm-core-5.19.1], [realm-sync-4.4.4])
+2019-06-06T16:45:10.179Z - info: [sync] Precheck: Build mode: Release
+2019-06-06T16:45:10.180Z - info: [sync] Precheck: Log level: info
+2019-06-06T16:45:10.180Z - info: [sync] Precheck: Encryption: No
+2019-06-06T16:45:10.180Z - info: [sync] Precheck: Searching for Realm files in '/Users/juanmanuel.gentili/Development/Realm/offline-first-poc/data/sync/user_data'
+2019-06-06T16:45:10.180Z - info: [sync] Precheck: Number of files that will be checked: 0
+2019-06-06T16:45:10.181Z - info: [sync] Precheck: Number of files without associated partial views: 0
+2019-06-06T16:45:10.181Z - info: [sync] Precheck: Number of files with associated partial views: 0
+2019-06-06T16:45:10.181Z - info: [sync] Precheck: Number of files functioning as partial views: 0
+2019-06-06T16:45:10.182Z - info: [sync] Precheck: Perform verification: No
+2019-06-06T16:45:10.182Z - info: [sync] Precheck: Perform compaction: No
+2019-06-06T16:45:10.182Z - info: [sync] Precheck: Perform partial sync: No
+2019-06-06T16:45:10.183Z - info: [sync] Precheck: Run checks in child process: No
+2019-06-06T16:45:10.184Z - info: [sync] Precheck: All files checked in 0ms (0ms/file)
+2019-06-06T16:45:10.184Z - info: [sync] Precheck: Number of files with success: 0
+2019-06-06T16:45:10.184Z - info: [sync] Precheck: Number of files where partial sync failed: 0
+2019-06-06T16:45:10.184Z - info: [sync] Precheck: Number of files that caused a crash: 0
+2019-06-06T16:45:10.184Z - info: [sync] Precheck: Complete
+2019-06-06T16:45:10.184Z - info: [sync] No client file blacklists loaded ('/Users/juanmanuel.gentili/Development/Realm/offline-first-poc/data/sync/client_file_blacklists' was not found)
+2019-06-06T16:45:10.189Z - error: [sync] The feature token is invalid
+2019-06-06T16:45:10.191Z - fatal: [sync] Encountered an error starting up: std::runtime_error: Invalid feature token
+2019-06-06T16:45:15.831Z - info: Got signal SIGINT. Shutting down
+2019-06-06T16:46:31.333Z - info: Realm Object Server version 3.21.1 is starting
+2019-06-06T16:46:31.399Z - detail: Starting service sync
+2019-06-06T16:46:31.400Z - info: [sync] Configuring SyncService with a custom dataPath is deprecated and will be removed in a future version and the value will default to 'sync', relative to the server's dataPath.
+2019-06-06T16:46:31.401Z - detail: Starting service auth
+2019-06-06T16:46:31.403Z - detail: Starting service realms
+2019-06-06T16:46:31.404Z - detail: Starting service log
+2019-06-06T16:46:31.405Z - detail: Starting service permissions
+2019-06-06T16:46:31.406Z - detail: Starting service health
+2019-06-06T16:46:31.406Z - detail: Starting service welcome
+2019-06-06T16:46:31.407Z - detail: Starting service password-auth-ui
+2019-06-06T16:46:31.409Z - detail: Starting service stats
+2019-06-06T16:46:31.414Z - detail: Started service welcome
+2019-06-06T16:46:31.415Z - detail: Started service stats
+2019-06-06T16:46:31.415Z - detail: Started service health
+2019-06-06T16:46:31.415Z - detail: Started service password-auth-ui
+2019-06-06T16:46:31.418Z - debug: [sync/stats] Started listening for stats on 127.0.0.1:57891
+2019-06-06T16:46:31.422Z - info: [sync] Precheck: Started ([realm-core-5.19.1], [realm-sync-4.4.4])
+2019-06-06T16:46:31.422Z - info: [sync] Precheck: Build mode: Release
+2019-06-06T16:46:31.422Z - info: [sync] Precheck: Log level: info
+2019-06-06T16:46:31.422Z - info: [sync] Precheck: Encryption: No
+2019-06-06T16:46:31.423Z - info: [sync] Precheck: Searching for Realm files in '/Users/juanmanuel.gentili/Development/Realm/offline-first-poc/data/sync/user_data'
+2019-06-06T16:46:31.423Z - info: [sync] Precheck: Number of files that will be checked: 0
+2019-06-06T16:46:31.423Z - info: [sync] Precheck: Number of files without associated partial views: 0
+2019-06-06T16:46:31.423Z - info: [sync] Precheck: Number of files with associated partial views: 0
+2019-06-06T16:46:31.424Z - info: [sync] Precheck: Number of files functioning as partial views: 0
+2019-06-06T16:46:31.424Z - info: [sync] Precheck: Perform verification: No
+2019-06-06T16:46:31.424Z - info: [sync] Precheck: Perform compaction: No
+2019-06-06T16:46:31.424Z - info: [sync] Precheck: Perform partial sync: No
+2019-06-06T16:46:31.424Z - info: [sync] Precheck: Run checks in child process: No
+2019-06-06T16:46:31.424Z - info: [sync] Precheck: All files checked in 0ms (0ms/file)
+2019-06-06T16:46:31.424Z - info: [sync] Precheck: Number of files with success: 0
+2019-06-06T16:46:31.425Z - info: [sync] Precheck: Number of files where partial sync failed: 0
+2019-06-06T16:46:31.425Z - info: [sync] Precheck: Number of files that caused a crash: 0
+2019-06-06T16:46:31.425Z - info: [sync] Precheck: Complete
+2019-06-06T16:46:31.425Z - info: [sync] No client file blacklists loaded ('/Users/juanmanuel.gentili/Development/Realm/offline-first-poc/data/sync/client_file_blacklists' was not found)
+2019-06-06T16:46:31.433Z - info: [sync] Realm sync server started ([realm-core-5.19.1], [realm-sync-4.4.4])
+2019-06-06T16:46:31.433Z - info: [sync] Supported protocol versions: 22-27
+2019-06-06T16:46:31.434Z - info: [sync] Platform: macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64
+2019-06-06T16:46:31.434Z - info: [sync] Build mode: Release
+2019-06-06T16:46:31.434Z - info: [sync] Directory holding persistent state: /Users/juanmanuel.gentili/Development/Realm/offline-first-poc/data/sync/user_data
+2019-06-06T16:46:31.434Z - info: [sync] Maximum number of open files: 256
+2019-06-06T16:46:31.434Z - info: [sync] Encryption: No
+2019-06-06T16:46:31.434Z - info: [sync] Cluster mode: Root node
+2019-06-06T16:46:31.434Z - info: [sync] Backup mode: disabled
+2019-06-06T16:46:31.434Z - info: [sync] Log level: info
+2019-06-06T16:46:31.434Z - info: [sync] Disable sync to disk: No
+2019-06-06T16:46:31.435Z - info: [sync] Download compaction: Yes
+2019-06-06T16:46:31.435Z - info: [sync] Download bootstrap caching: No
+2019-06-06T16:46:31.435Z - info: [sync] Max download size: 16777216 bytes
+2019-06-06T16:46:31.435Z - info: [sync] Max upload backlog: 4294967295 bytes
+2019-06-06T16:46:31.435Z - info: [sync] HTTP request timeout: 600000 ms
+2019-06-06T16:46:31.435Z - info: [sync] HTTP response timeout: 600000 ms
+2019-06-06T16:46:31.435Z - info: [sync] Connection reaper timeout: 1800000 ms
+2019-06-06T16:46:31.435Z - info: [sync] Connection reaper interval: 60000 ms
+2019-06-06T16:46:31.435Z - info: [sync] Connection soft close timeout: 600000 ms
+2019-06-06T16:46:31.436Z - info: [sync] State realm dir: /Users/juanmanuel.gentili/Development/Realm/offline-first-poc/data/sync/state_realm_dir
+2019-06-06T16:46:31.436Z - info: [sync] Max number of state realm threads: 4
+2019-06-06T16:46:31.437Z - info: [sync] History compaction: Enabled (interval=3600s, time_to_live=9223372036854775807s)
+2019-06-06T16:46:31.437Z - info: [sync] Recompute and report Realm state sizes: No
+2019-06-06T16:46:31.437Z - info: [sync] Number of client file blacklists: 0 (0 client files in total)
+2019-06-06T16:46:31.437Z - info: [sync] Partial sync completer: Enabled (sentry='/Users/juanmanuel.gentili/Development/Realm/offline-first-poc/data/sync/var/psync_completer_sentry')
+2019-06-06T16:46:31.437Z - info: [sync] Maximum number of auxiliary partial sync worker threads: 0
+2019-06-06T16:46:31.439Z - debug: Opening realm at /__configuration: 127.0.0.1:65178
+2019-06-06T16:46:31.483Z - debug: Opening realm at /__admin: 127.0.0.1:65178
+2019-06-06T16:46:31.501Z - detail: Started service sync
+2019-06-06T16:46:31.503Z - info: [sync] State Realm initialization and reset done
+2019-06-06T16:46:31.503Z - info: [sync] Listening on 127.0.0.1:65178 (max backlog is 128, non-TLS)
+2019-06-06T16:46:31.513Z - detail: sync-client: Connection[1]: Connected to endpoint '127.0.0.1:65178' (from '127.0.0.1:65182') level=info
+2019-06-06T16:46:31.532Z - info: [sync] Sync Connection[3]: Session[1]: Client info: (path='/__configuration', user='__admin', from=[127.0.0.1]:65182, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-06T16:46:31.576Z - info: [sync] Sync Connection[3]: Session[2]: Client info: (path='/__admin', user='__admin', from=[127.0.0.1]:65182, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-06T16:46:31.597Z - info: [sync] Sync Connection[3]: Session[1]: Bound to client file (client_file_ident=2)
+2019-06-06T16:46:31.642Z - debug: Open progress for realm at /__configuration: 0/0
+2019-06-06T16:46:31.672Z - debug: Open progress for realm at /__admin: 0/0
+2019-06-06T16:46:31.673Z - info: [sync] Sync Connection[3]: Session[2]: Bound to client file (client_file_ident=2)
+2019-06-06T16:46:31.673Z - detail: Opened realm at /__configuration
+2019-06-06T16:46:31.673Z - detail: Opened realm at /__admin
+2019-06-06T16:46:31.683Z - detail: [realms] Creating and initializing the default Realm
+2019-06-06T16:46:31.687Z - detail: Started service log
+2019-06-06T16:46:31.687Z - debug: Opening realm at /__wildcardpermissions: 127.0.0.1:65178
+2019-06-06T16:46:31.701Z - debug: Opening realm at /default: 127.0.0.1:65178
+2019-06-06T16:46:31.717Z - info: [sync] Sync Connection[3]: Session[3]: Client info: (path='/__admin', user='__admin', from=[127.0.0.1]:65182, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-06T16:46:31.718Z - info: [sync] Sync Connection[3]: Session[3]: Bound to client file (client_file_ident=2)
+2019-06-06T16:46:31.742Z - info: [sync] Sync Connection[3]: Session[4]: Client info: (path='/__wildcardpermissions', user='__admin', from=[127.0.0.1]:65182, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-06T16:46:31.783Z - info: [sync] Sync Connection[3]: Session[5]: Client info: (path='/default', user='__admin', from=[127.0.0.1]:65182, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-06T16:46:31.799Z - info: [sync] Sync Connection[3]: Session[4]: Bound to client file (client_file_ident=2)
+2019-06-06T16:46:31.878Z - debug: Open progress for realm at /__wildcardpermissions: 0/0
+2019-06-06T16:46:31.905Z - debug: Open progress for realm at /default: 0/0
+2019-06-06T16:46:31.905Z - detail: Opened realm at /__wildcardpermissions
+2019-06-06T16:46:31.905Z - detail: Opened realm at /default
+2019-06-06T16:46:31.925Z - detail: Closed realm at /default
+2019-06-06T16:46:31.962Z - detail: Started service realms
+2019-06-06T16:46:31.977Z - detail: Started service permissions
+2019-06-06T16:46:31.984Z - debug: Opening realm at /__revocation: 127.0.0.1:65178
+2019-06-06T16:46:32.005Z - info: [sync] Sync Connection[3]: Session[5]: Bound to client file (client_file_ident=2)
+2019-06-06T16:46:32.019Z - info: [sync] Sync Connection[3]: Session[6]: Client info: (path='/__wildcardpermissions', user='__admin', from=[127.0.0.1]:65182, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-06T16:46:32.020Z - info: [sync] Sync Connection[3]: Session[6]: Bound to client file (client_file_ident=2)
+2019-06-06T16:46:32.037Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin HTTP/1.1 200 74 - 11.510 ms
+2019-06-06T16:46:32.037Z - info: [sync] Sync Connection[3]: Session[7]: Client info: (path='/default', user='__admin', from=[127.0.0.1]:65182, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-06T16:46:32.041Z - info: [sync] Sync Connection[3]: Session[8]: Client info: (path='/__revocation', user='__admin', from=[127.0.0.1]:65182, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-06T16:46:32.041Z - info: [sync] Sync Connection[3]: Session[7]: Bound to client file (client_file_ident=2)
+2019-06-06T16:46:32.093Z - detail: sync-client: Connection[2]: Connected to endpoint '0.0.0.0:9080' (from '127.0.0.1:65190') level=info
+2019-06-06T16:46:32.093Z - info: [sync] Sync Connection[3]: Session[8]: Bound to client file (client_file_ident=2)
+2019-06-06T16:46:32.147Z - debug: Open progress for realm at /__revocation: 0/0
+2019-06-06T16:46:32.161Z - debug: [0]: New connection from client at 127.0.0.1:65190
+2019-06-06T16:46:32.169Z - detail: Opened realm at /__revocation
+2019-06-06T16:46:32.192Z - info: [sync] Sync Connection[3]: Session[10]: Client info: (path='/__revocation', user='__admin', from=[127.0.0.1]:65182, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-06T16:46:32.193Z - info: [sync] Sync Connection[3]: Session[10]: Bound to client file (client_file_ident=2)
+2019-06-06T16:46:32.199Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=false HTTP/1.1 200 74 - 26.514 ms
+2019-06-06T16:46:32.202Z - debug: new target for default is http://127.0.0.1:65178
+2019-06-06T16:46:32.203Z - debug: Repeated 'available' message from service watch
+2019-06-06T16:46:32.203Z - debug: new target for default is http://127.0.0.1:65178
+2019-06-06T16:46:32.203Z - debug: The Realm Object Server proxy has 1 open connections to the 'default' sync server
+2019-06-06T16:46:32.207Z - detail: [0]: Connection to sync server established. src=127.0.0.1:65193 dst=127.0.0.1:65178
+2019-06-06T16:46:32.209Z - info: [sync] Sync Connection[11]: Session[9]: Client info: (path='/__admin', user='__admin', from=[127.0.0.1]:65193, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-06T16:46:32.215Z - info: [auth] Autocreated admin token user: __admin
+2019-06-06T16:46:32.228Z - detail: [auth] Starting auth provider 'password'
+2019-06-06T16:46:32.229Z - detail: [auth] Starting auth provider 'anonymous'
+2019-06-06T16:46:32.230Z - detail: [auth] Starting auth provider 'nickname'
+2019-06-06T16:46:32.230Z - warn: [auth] The 'Nickname' auth provider has been enabled. This provider is not secure and should never be used in production deployments. If you're still developing your application and experimenting, it is not a problem, but if this instance is hosting production data, please disable it immediately.
+2019-06-06T16:46:32.234Z - info: [sync] Sync Connection[11]: Session[9]: Bound to client file (client_file_ident=3)
+2019-06-06T16:46:32.247Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__password?shouldCreate=true&realmType=full HTTP/1.1 200 77 - 11.390 ms
+2019-06-06T16:46:32.248Z - debug: Obtained sync label for realm at /__password: default
+2019-06-06T16:46:32.248Z - debug: Opening realm at /__password: 127.0.0.1:65178
+2019-06-06T16:46:32.291Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin HTTP/1.1 200 74 - 1.142 ms
+2019-06-06T16:46:32.306Z - info: [sync] Sync Connection[3]: Session[11]: Client info: (path='/__password', user='__admin', from=[127.0.0.1]:65182, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-06T16:46:32.345Z - info: [sync] Sync Connection[11]: Session[12]: Client info: (path='/__admin', user='__admin', from=[127.0.0.1]:65193, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-06T16:46:32.359Z - info: [sync] Sync Connection[3]: Session[11]: Bound to client file (client_file_ident=2)
+2019-06-06T16:46:32.373Z - debug: Open progress for realm at /__password: 0/0
+2019-06-06T16:46:32.374Z - detail: Opened realm at /__password
+2019-06-06T16:46:32.391Z - info: [sync] Sync Connection[3]: Session[13]: Client info: (path='/__password', user='__admin', from=[127.0.0.1]:65182, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-06T16:46:32.391Z - info: [sync] Sync Connection[3]: Session[13]: Bound to client file (client_file_ident=2)
+2019-06-06T16:46:32.392Z - info: [sync] Sync Connection[11]: Session[12]: Bound to client file (client_file_ident=4)
+2019-06-06T16:46:32.573Z - info: [auth] Autocreated admin user: realm-admin
+2019-06-06T16:46:32.574Z - detail: Started service auth
+2019-06-06T16:46:32.574Z - detail: All services have started
+2019-06-06T16:46:32.575Z - detail: TokenValidator started
+2019-06-06T16:46:32.575Z - info: Realm Object Server has started and is listening on http://0.0.0.0:9080
+2019-06-06T16:46:42.598Z - debug: Open files in Realm Object Server: {"regular":73,"directory":0,"character-device":6,"block-device":0,"pipe":98,"symbolic-link":0,"socket":11,"unknown":0,"total":188}
+2019-06-06T16:48:02.990Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 794 - 89.620 ms
+2019-06-06T16:48:04.505Z - debug: [http] 127.0.0.1 - GET /health?thisInstance=true HTTP/1.1 200 20 - 1.488 ms
+2019-06-06T16:48:04.508Z - debug: [http] 127.0.0.1 - GET /health HTTP/1.1 200 20 - 12.203 ms
+2019-06-06T16:48:04.725Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 5.586 ms
+2019-06-06T16:48:04.731Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 18.123 ms
+2019-06-06T16:48:04.772Z - debug: [1]: New connection from client at 127.0.0.1:65273
+2019-06-06T16:48:04.773Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-06T16:48:04.776Z - detail: [1]: Connection to sync server established. src=127.0.0.1:65274 dst=127.0.0.1:65178
+2019-06-06T16:48:04.781Z - info: [sync] Sync Connection[14]: Session[1]: Client info: (path='/__admin', user='34548fcdb5f644769b65ab89408accf4', from=[127.0.0.1]:65274, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T16:48:04.795Z - info: [sync] Sync Connection[14]: Session[1]: Bound to client file (client_file_ident=5)
+2019-06-06T16:48:04.867Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 1.365 ms
+2019-06-06T16:48:04.872Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 9.158 ms
+2019-06-06T16:48:05.000Z - debug: [2]: New connection from client at 127.0.0.1:65276
+2019-06-06T16:48:05.001Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T16:48:05.004Z - detail: [2]: Connection to sync server established. src=127.0.0.1:65277 dst=127.0.0.1:65178
+2019-06-06T16:48:05.024Z - info: [sync] Sync Connection[15]: Session[2]: Client info: (path='/__metrics', user='34548fcdb5f644769b65ab89408accf4', from=[127.0.0.1]:65277, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T16:48:05.058Z - info: [sync] Sync Connection[15]: Session[2]: Bound to client file (client_file_ident=2)
+2019-06-06T16:48:12.624Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":17,"unknown":0,"total":203}
+2019-06-06T16:48:26.284Z - detail: [2]: Connection to sync server closed.
+2019-06-06T16:48:26.285Z - debug: [2]: Closed connection to client 127.0.0.1:65276
+2019-06-06T16:48:26.286Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-06T16:48:32.650Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":14,"unknown":0,"total":200}
+2019-06-06T16:48:51.657Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 795 - 176.334 ms
+2019-06-06T16:48:52.637Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":15,"unknown":0,"total":201}
+2019-06-06T16:49:02.646Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":14,"unknown":0,"total":200}
+2019-06-06T16:49:07.665Z - detail: [1]: Connection to sync server closed.
+2019-06-06T16:49:07.666Z - debug: [1]: Closed connection to client 127.0.0.1:65273
+2019-06-06T16:49:07.666Z - debug: The Realm Object Server proxy has 1 open connections to the 'default' sync server
+2019-06-06T16:49:12.648Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":11,"unknown":0,"total":197}
+2019-06-06T16:52:02.432Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 794 - 85.253 ms
+2019-06-06T16:52:02.733Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":12,"unknown":0,"total":198}
+2019-06-06T16:52:03.903Z - debug: [http] 127.0.0.1 - GET /health?thisInstance=true HTTP/1.1 200 20 - 1.061 ms
+2019-06-06T16:52:03.905Z - debug: [http] 127.0.0.1 - GET /health HTTP/1.1 304 - - 5.576 ms
+2019-06-06T16:52:04.117Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 12.679 ms
+2019-06-06T16:52:04.122Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 23.100 ms
+2019-06-06T16:52:04.153Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 5.099 ms
+2019-06-06T16:52:04.158Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 17.206 ms
+2019-06-06T16:52:04.374Z - debug: [3]: New connection from client at 127.0.0.1:65445
+2019-06-06T16:52:04.375Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-06T16:52:04.378Z - detail: [3]: Connection to sync server established. src=127.0.0.1:65446 dst=127.0.0.1:65178
+2019-06-06T16:52:04.380Z - debug: [4]: New connection from client at 127.0.0.1:65447
+2019-06-06T16:52:04.380Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T16:52:04.382Z - info: [sync] Sync Connection[16]: Session[1]: Client info: (path='/__admin', user='34548fcdb5f644769b65ab89408accf4', from=[127.0.0.1]:65446, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T16:52:04.382Z - info: [sync] Sync Connection[16]: Session[1]: Bound to client file (client_file_ident=5)
+2019-06-06T16:52:04.383Z - detail: [4]: Connection to sync server established. src=127.0.0.1:65448 dst=127.0.0.1:65178
+2019-06-06T16:52:04.387Z - info: [sync] Sync Connection[17]: Session[2]: Client info: (path='/__metrics', user='34548fcdb5f644769b65ab89408accf4', from=[127.0.0.1]:65448, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T16:52:04.387Z - info: [sync] Sync Connection[17]: Session[2]: Bound to client file (client_file_ident=2)
+2019-06-06T16:52:06.760Z - detail: [4]: Connection to sync server closed.
+2019-06-06T16:52:06.761Z - debug: [4]: Closed connection to client 127.0.0.1:65447
+2019-06-06T16:52:06.761Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-06T16:52:12.741Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":14,"unknown":0,"total":200}
+2019-06-06T16:52:25.501Z - detail: [3]: Connection to sync server closed.
+2019-06-06T16:52:25.503Z - debug: [3]: Closed connection to client 127.0.0.1:65445
+2019-06-06T16:52:25.503Z - debug: The Realm Object Server proxy has 1 open connections to the 'default' sync server
+2019-06-06T16:52:32.742Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":11,"unknown":0,"total":197}
+2019-06-06T16:52:44.467Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 794 - 79.385 ms
+2019-06-06T16:52:45.895Z - debug: [http] 127.0.0.1 - GET /health?thisInstance=true HTTP/1.1 200 20 - 1.023 ms
+2019-06-06T16:52:45.898Z - debug: [http] 127.0.0.1 - GET /health HTTP/1.1 304 - - 4.188 ms
+2019-06-06T16:52:46.101Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.372 ms
+2019-06-06T16:52:46.107Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 11.865 ms
+2019-06-06T16:52:46.183Z - debug: [5]: New connection from client at 127.0.0.1:65489
+2019-06-06T16:52:46.184Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-06T16:52:46.187Z - detail: [5]: Connection to sync server established. src=127.0.0.1:65490 dst=127.0.0.1:65178
+2019-06-06T16:52:46.190Z - info: [sync] Sync Connection[18]: Session[1]: Client info: (path='/__admin', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:65490, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T16:52:46.205Z - info: [sync] Sync Connection[18]: Session[1]: Bound to client file (client_file_ident=6)
+2019-06-06T16:52:46.263Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 1.020 ms
+2019-06-06T16:52:46.267Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 5.853 ms
+2019-06-06T16:52:46.389Z - debug: [6]: New connection from client at 127.0.0.1:65492
+2019-06-06T16:52:46.390Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T16:52:46.393Z - detail: [6]: Connection to sync server established. src=127.0.0.1:65493 dst=127.0.0.1:65178
+2019-06-06T16:52:46.395Z - info: [sync] Sync Connection[19]: Session[2]: Client info: (path='/__metrics', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:65493, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T16:52:46.447Z - info: [sync] Sync Connection[19]: Session[2]: Bound to client file (client_file_ident=3)
+2019-06-06T16:52:48.198Z - detail: [6]: Connection to sync server closed.
+2019-06-06T16:52:48.199Z - debug: [6]: Closed connection to client 127.0.0.1:65492
+2019-06-06T16:52:48.199Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-06T16:52:52.756Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":14,"unknown":0,"total":200}
+2019-06-06T16:53:02.394Z - debug: [auth] User 34548fcdb5f644769b65ab89408accf4 is requested to be deleted
+2019-06-06T16:53:02.434Z - debug: [auth] User 34548fcdb5f644769b65ab89408accf4 has been deleted
+2019-06-06T16:53:02.435Z - debug: [http] 127.0.0.1 - DELETE /auth/user/34548fcdb5f644769b65ab89408accf4 HTTP/1.1 200 2 - 42.588 ms
+2019-06-06T16:53:02.760Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":15,"unknown":0,"total":201}
+2019-06-06T16:53:11.251Z - detail: [5]: Connection to sync server closed.
+2019-06-06T16:53:11.252Z - debug: [5]: Closed connection to client 127.0.0.1:65489
+2019-06-06T16:53:11.252Z - debug: The Realm Object Server proxy has 1 open connections to the 'default' sync server
+2019-06-06T16:53:12.767Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":11,"unknown":0,"total":197}
+2019-06-06T16:56:43.349Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 794 - 82.622 ms
+2019-06-06T16:56:45.204Z - debug: [http] 127.0.0.1 - GET /health?thisInstance=true HTTP/1.1 200 20 - 2.197 ms
+2019-06-06T16:56:45.207Z - debug: [http] 127.0.0.1 - GET /health HTTP/1.1 304 - - 7.773 ms
+2019-06-06T16:56:45.398Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 6.765 ms
+2019-06-06T16:56:45.408Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 18.822 ms
+2019-06-06T16:56:45.454Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 3.002 ms
+2019-06-06T16:56:45.460Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 13.711 ms
+2019-06-06T16:56:45.646Z - debug: [7]: New connection from client at 127.0.0.1:49396
+2019-06-06T16:56:45.647Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-06T16:56:45.650Z - debug: [8]: New connection from client at 127.0.0.1:49397
+2019-06-06T16:56:45.651Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T16:56:45.654Z - detail: [7]: Connection to sync server established. src=127.0.0.1:49398 dst=127.0.0.1:65178
+2019-06-06T16:56:45.656Z - detail: [8]: Connection to sync server established. src=127.0.0.1:49399 dst=127.0.0.1:65178
+2019-06-06T16:56:45.664Z - info: [sync] Sync Connection[20]: Session[1]: Client info: (path='/__admin', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:49398, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T16:56:45.664Z - info: [sync] Sync Connection[20]: Session[1]: Bound to client file (client_file_ident=6)
+2019-06-06T16:56:45.668Z - info: [sync] Sync Connection[21]: Session[2]: Client info: (path='/__metrics', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:49399, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T16:56:45.670Z - info: [sync] Sync Connection[21]: Session[2]: Bound to client file (client_file_ident=3)
+2019-06-06T16:56:47.137Z - detail: [8]: Connection to sync server closed.
+2019-06-06T16:56:47.138Z - debug: [8]: Closed connection to client 127.0.0.1:49397
+2019-06-06T16:56:47.138Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-06T16:56:52.832Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":14,"unknown":0,"total":200}
+2019-06-06T16:59:21.310Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 2.226 ms
+2019-06-06T16:59:21.313Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 8.870 ms
+2019-06-06T16:59:21.336Z - debug: [9]: New connection from client at 127.0.0.1:49521
+2019-06-06T16:59:21.336Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T16:59:21.338Z - detail: [9]: Connection to sync server established. src=127.0.0.1:49522 dst=127.0.0.1:65178
+2019-06-06T16:59:21.341Z - info: [sync] Sync Connection[22]: Session[3]: Client info: (path='/__metrics', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:49522, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T16:59:21.342Z - info: [sync] Sync Connection[22]: Session[3]: Bound to client file (client_file_ident=3)
+2019-06-06T16:59:22.877Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":18,"unknown":0,"total":204}
+2019-06-06T16:59:32.876Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":17,"unknown":0,"total":203}
+2019-06-06T17:02:26.407Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.681 ms
+2019-06-06T17:02:26.408Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 1.942 ms
+2019-06-06T17:02:26.410Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 8.066 ms
+2019-06-06T17:02:26.413Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 10.932 ms
+2019-06-06T17:08:13.746Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 3.620 ms
+2019-06-06T17:08:13.748Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 2.918 ms
+2019-06-06T17:08:13.750Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 10.350 ms
+2019-06-06T17:08:13.754Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 11.310 ms
+2019-06-06T17:13:54.439Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 3.051 ms
+2019-06-06T17:13:54.440Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 1.762 ms
+2019-06-06T17:13:54.442Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 8.612 ms
+2019-06-06T17:13:54.446Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 10.272 ms
+2019-06-06T17:19:35.342Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 1.535 ms
+2019-06-06T17:19:35.342Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.646 ms
+2019-06-06T17:19:35.345Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 8.116 ms
+2019-06-06T17:19:35.348Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 10.965 ms
+2019-06-06T17:25:17.243Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.625 ms
+2019-06-06T17:25:17.244Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 1.697 ms
+2019-06-06T17:25:17.248Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 11.831 ms
+2019-06-06T17:25:17.252Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 13.751 ms
+2019-06-06T17:30:58.107Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 4.731 ms
+2019-06-06T17:30:58.108Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.454 ms
+2019-06-06T17:30:58.110Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 11.075 ms
+2019-06-06T17:30:58.114Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 11.814 ms
+2019-06-06T17:36:39.151Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 2.941 ms
+2019-06-06T17:36:39.153Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.412 ms
+2019-06-06T17:36:39.155Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 9.227 ms
+2019-06-06T17:36:39.158Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 10.183 ms
+2019-06-06T17:36:43.614Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":19,"unknown":0,"total":205}
+2019-06-06T17:36:53.620Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":17,"unknown":0,"total":203}
+2019-06-06T17:42:19.036Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.669 ms
+2019-06-06T17:42:19.037Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 1.536 ms
+2019-06-06T17:42:19.039Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 8.223 ms
+2019-06-06T17:42:19.043Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 9.821 ms
+2019-06-06T17:42:23.729Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":19,"unknown":0,"total":205}
+2019-06-06T17:42:33.729Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":17,"unknown":0,"total":203}
+2019-06-06T17:47:59.053Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.238 ms
+2019-06-06T17:47:59.053Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 2.393 ms
+2019-06-06T17:47:59.056Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 7.909 ms
+2019-06-06T17:47:59.059Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 10.720 ms
+2019-06-06T17:48:03.832Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":19,"unknown":0,"total":205}
+2019-06-06T17:48:13.827Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":17,"unknown":0,"total":203}
+2019-06-06T17:53:39.097Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 1.674 ms
+2019-06-06T17:53:39.098Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.827 ms
+2019-06-06T17:53:39.101Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 13.370 ms
+2019-06-06T17:53:39.104Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 15.139 ms
+2019-06-06T17:53:43.946Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":19,"unknown":0,"total":205}
+2019-06-06T17:53:53.960Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":17,"unknown":0,"total":203}
+2019-06-06T17:59:23.938Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.303 ms
+2019-06-06T17:59:23.939Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 2.789 ms
+2019-06-06T17:59:23.942Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 13.541 ms
+2019-06-06T17:59:23.947Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 14.083 ms
+2019-06-06T17:59:24.055Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":19,"unknown":0,"total":205}
+2019-06-06T17:59:34.044Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":17,"unknown":0,"total":203}
+2019-06-06T18:05:03.135Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 1.761 ms
+2019-06-06T18:05:03.136Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.866 ms
+2019-06-06T18:05:03.138Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 8.957 ms
+2019-06-06T18:05:03.142Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 10.707 ms
+2019-06-06T18:05:04.147Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":19,"unknown":0,"total":205}
+2019-06-06T18:05:14.155Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":17,"unknown":0,"total":203}
+2019-06-06T18:10:43.128Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 2.928 ms
+2019-06-06T18:10:43.129Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.829 ms
+2019-06-06T18:10:43.132Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 10.509 ms
+2019-06-06T18:10:43.136Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 11.788 ms
+2019-06-06T18:10:44.272Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":19,"unknown":0,"total":205}
+2019-06-06T18:10:54.288Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":17,"unknown":0,"total":203}
+2019-06-06T18:16:23.238Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 2.662 ms
+2019-06-06T18:16:23.239Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 3.277 ms
+2019-06-06T18:16:23.244Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 17.336 ms
+2019-06-06T18:16:23.249Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 19.307 ms
+2019-06-06T18:16:24.373Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":19,"unknown":0,"total":205}
+2019-06-06T18:16:34.378Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":102,"symbolic-link":0,"socket":17,"unknown":0,"total":203}
+2019-06-06T18:18:14.972Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 794 - 31.266 ms
+2019-06-06T18:18:15.206Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.922 ms
+2019-06-06T18:18:15.209Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 6.511 ms
+2019-06-06T18:18:15.271Z - debug: [10]: New connection from client at 127.0.0.1:53519
+2019-06-06T18:18:15.271Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:18:15.273Z - detail: [10]: Connection to sync server established. src=127.0.0.1:53520 dst=127.0.0.1:65178
+2019-06-06T18:18:15.291Z - info: [sync] Sync Connection[23]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:53520, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:18:15.345Z - info: [sync] Sync Connection[23]: Session[1]: Bound to client file (client_file_ident=2)
+2019-06-06T18:18:15.351Z - detail: [10]: Connection to sync server closed.
+2019-06-06T18:18:15.352Z - debug: [10]: Closed connection to client 127.0.0.1:53519
+2019-06-06T18:18:15.352Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T18:18:15.370Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 0.948 ms
+2019-06-06T18:18:15.373Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 5.271 ms
+2019-06-06T18:18:15.431Z - debug: [11]: New connection from client at 127.0.0.1:53522
+2019-06-06T18:18:15.432Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:18:15.433Z - detail: [11]: Connection to sync server established. src=127.0.0.1:53523 dst=127.0.0.1:65178
+2019-06-06T18:18:15.435Z - info: [sync] Sync Connection[24]: Session[2]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:53523, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:18:15.435Z - info: [sync] Sync Connection[24]: Session[2]: Bound to client file (client_file_ident=2)
+2019-06-06T18:18:24.421Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:18:48.674Z - detail: [11]: Connection to sync server closed.
+2019-06-06T18:18:48.675Z - debug: [11]: Closed connection to client 127.0.0.1:53522
+2019-06-06T18:18:48.675Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T18:18:54.420Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T18:19:12.873Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.463 ms
+2019-06-06T18:19:12.877Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 8.024 ms
+2019-06-06T18:19:13.150Z - debug: [12]: New connection from client at 127.0.0.1:53549
+2019-06-06T18:19:13.151Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:19:13.154Z - detail: [12]: Connection to sync server established. src=127.0.0.1:53550 dst=127.0.0.1:65178
+2019-06-06T18:19:13.158Z - info: [sync] Sync Connection[25]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:53550, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:19:13.159Z - info: [sync] Sync Connection[25]: Session[1]: Bound to client file (client_file_ident=2)
+2019-06-06T18:19:14.431Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T18:19:24.443Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:19:26.861Z - detail: [12]: Connection to sync server closed.
+2019-06-06T18:19:26.861Z - debug: [12]: Closed connection to client 127.0.0.1:53549
+2019-06-06T18:19:26.862Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T18:19:34.443Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T18:19:42.387Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.562 ms
+2019-06-06T18:19:42.392Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 8.669 ms
+2019-06-06T18:19:42.558Z - debug: [13]: New connection from client at 127.0.0.1:53567
+2019-06-06T18:19:42.559Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:19:42.563Z - detail: [13]: Connection to sync server established. src=127.0.0.1:53568 dst=127.0.0.1:65178
+2019-06-06T18:19:42.566Z - info: [sync] Sync Connection[26]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:53568, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:19:42.566Z - info: [sync] Sync Connection[26]: Session[1]: Bound to client file (client_file_ident=2)
+2019-06-06T18:19:44.448Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T18:19:54.449Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:19:54.855Z - detail: [13]: Connection to sync server closed.
+2019-06-06T18:19:54.857Z - debug: [13]: Closed connection to client 127.0.0.1:53567
+2019-06-06T18:19:54.857Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T18:20:04.479Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T18:20:11.723Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.744 ms
+2019-06-06T18:20:11.727Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 8.823 ms
+2019-06-06T18:20:11.886Z - debug: [14]: New connection from client at 127.0.0.1:53578
+2019-06-06T18:20:11.886Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:20:11.888Z - detail: [14]: Connection to sync server established. src=127.0.0.1:53579 dst=127.0.0.1:65178
+2019-06-06T18:20:11.892Z - info: [sync] Sync Connection[27]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:53579, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:20:11.893Z - info: [sync] Sync Connection[27]: Session[1]: Bound to client file (client_file_ident=2)
+2019-06-06T18:20:14.451Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T18:20:24.454Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:20:26.147Z - detail: [14]: Connection to sync server closed.
+2019-06-06T18:20:26.148Z - debug: [14]: Closed connection to client 127.0.0.1:53578
+2019-06-06T18:20:26.148Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T18:20:34.459Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T18:21:16.669Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 794 - 7.509 ms
+2019-06-06T18:21:16.860Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.066 ms
+2019-06-06T18:21:16.863Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 5.240 ms
+2019-06-06T18:21:16.928Z - debug: [15]: New connection from client at 127.0.0.1:53591
+2019-06-06T18:21:16.928Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:21:16.929Z - detail: [15]: Connection to sync server established. src=127.0.0.1:53592 dst=127.0.0.1:65178
+2019-06-06T18:21:16.932Z - info: [sync] Sync Connection[28]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:53592, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:21:16.978Z - info: [sync] Sync Connection[28]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-06T18:21:16.990Z - detail: [15]: Connection to sync server closed.
+2019-06-06T18:21:16.994Z - debug: [15]: Closed connection to client 127.0.0.1:53591
+2019-06-06T18:21:16.994Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T18:21:17.012Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 0.966 ms
+2019-06-06T18:21:17.015Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 6.127 ms
+2019-06-06T18:21:17.024Z - debug: [16]: New connection from client at 127.0.0.1:53594
+2019-06-06T18:21:17.025Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:21:17.028Z - detail: [16]: Connection to sync server established. src=127.0.0.1:53595 dst=127.0.0.1:65178
+2019-06-06T18:21:17.031Z - info: [sync] Sync Connection[29]: Session[2]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:53595, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:21:17.031Z - info: [sync] Sync Connection[29]: Session[2]: Bound to client file (client_file_ident=3)
+2019-06-06T18:21:24.487Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:21:59.833Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.544 ms
+2019-06-06T18:21:59.836Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 8.012 ms
+2019-06-06T18:22:00.026Z - debug: [17]: New connection from client at 127.0.0.1:53603
+2019-06-06T18:22:00.027Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T18:22:00.029Z - detail: [17]: Connection to sync server established. src=127.0.0.1:53604 dst=127.0.0.1:65178
+2019-06-06T18:22:00.032Z - info: [sync] Sync Connection[30]: Session[1]: Client info: (path='/OfflineFirstPOC', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:53604, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T18:22:00.046Z - info: [sync] Sync Connection[30]: Session[1]: Bound to client file (client_file_ident=4)
+2019-06-06T18:22:00.092Z - detail: [17]: Connection to sync server closed.
+2019-06-06T18:22:00.094Z - debug: [17]: Closed connection to client 127.0.0.1:53603
+2019-06-06T18:22:00.095Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:22:00.107Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 2.583 ms
+2019-06-06T18:22:00.112Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 11.418 ms
+2019-06-06T18:22:00.140Z - debug: [18]: New connection from client at 127.0.0.1:53606
+2019-06-06T18:22:00.141Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T18:22:00.143Z - detail: [18]: Connection to sync server established. src=127.0.0.1:53607 dst=127.0.0.1:65178
+2019-06-06T18:22:00.155Z - info: [sync] Sync Connection[31]: Session[2]: Client info: (path='/OfflineFirstPOC', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:53607, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T18:22:00.155Z - info: [sync] Sync Connection[31]: Session[2]: Bound to client file (client_file_ident=4)
+2019-06-06T18:22:03.070Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 3.239 ms
+2019-06-06T18:22:03.071Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 3.205 ms
+2019-06-06T18:22:03.075Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 18.339 ms
+2019-06-06T18:22:03.079Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 19.543 ms
+2019-06-06T18:22:04.508Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":25,"unknown":0,"total":220}
+2019-06-06T18:22:14.495Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T18:23:08.090Z - detail: [16]: Connection to sync server closed.
+2019-06-06T18:23:08.091Z - debug: [16]: Closed connection to client 127.0.0.1:53594
+2019-06-06T18:23:08.091Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:23:14.524Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:23:39.497Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.240 ms
+2019-06-06T18:23:39.501Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 8.393 ms
+2019-06-06T18:23:39.656Z - debug: [19]: New connection from client at 127.0.0.1:53623
+2019-06-06T18:23:39.657Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T18:23:39.662Z - detail: [19]: Connection to sync server established. src=127.0.0.1:53624 dst=127.0.0.1:65178
+2019-06-06T18:23:39.666Z - info: [sync] Sync Connection[32]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:53624, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:23:39.667Z - info: [sync] Sync Connection[32]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-06T18:23:44.527Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T18:25:42.248Z - detail: [19]: Connection to sync server closed.
+2019-06-06T18:25:42.249Z - debug: [19]: Closed connection to client 127.0.0.1:53623
+2019-06-06T18:25:42.250Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:25:44.570Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:25:48.706Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.445 ms
+2019-06-06T18:25:48.709Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 6.787 ms
+2019-06-06T18:25:48.782Z - debug: [20]: New connection from client at 127.0.0.1:53636
+2019-06-06T18:25:48.783Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T18:25:48.786Z - detail: [20]: Connection to sync server established. src=127.0.0.1:53637 dst=127.0.0.1:65178
+2019-06-06T18:25:48.788Z - info: [sync] Sync Connection[33]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:53637, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:25:48.788Z - info: [sync] Sync Connection[33]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-06T18:25:54.584Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T18:26:15.095Z - detail: [20]: Connection to sync server closed.
+2019-06-06T18:26:15.099Z - debug: [20]: Closed connection to client 127.0.0.1:53636
+2019-06-06T18:26:15.099Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:26:18.781Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 2.555 ms
+2019-06-06T18:26:18.784Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 7.765 ms
+2019-06-06T18:26:18.866Z - debug: [21]: New connection from client at 127.0.0.1:53647
+2019-06-06T18:26:18.866Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T18:26:18.869Z - detail: [21]: Connection to sync server established. src=127.0.0.1:53648 dst=127.0.0.1:65178
+2019-06-06T18:26:18.871Z - info: [sync] Sync Connection[34]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:53648, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:26:18.872Z - info: [sync] Sync Connection[34]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-06T18:27:10.946Z - detail: [21]: Connection to sync server closed.
+2019-06-06T18:27:10.974Z - debug: [21]: Closed connection to client 127.0.0.1:53647
+2019-06-06T18:27:10.974Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:27:14.602Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:27:39.018Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.308 ms
+2019-06-06T18:27:39.021Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 6.672 ms
+2019-06-06T18:27:43.025Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 4.134 ms
+2019-06-06T18:27:43.026Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.587 ms
+2019-06-06T18:27:43.028Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 10.137 ms
+2019-06-06T18:27:43.031Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 10.296 ms
+2019-06-06T18:27:44.617Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":22,"unknown":0,"total":217}
+2019-06-06T18:27:54.619Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:32:40.479Z - detail: [9]: Connection to sync server closed.
+2019-06-06T18:32:40.480Z - detail: [7]: Connection to sync server closed.
+2019-06-06T18:32:40.482Z - debug: [7]: Closed connection to client 127.0.0.1:49396
+2019-06-06T18:32:40.483Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T18:32:40.483Z - debug: [9]: Closed connection to client 127.0.0.1:49521
+2019-06-06T18:32:40.483Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-06T18:32:40.919Z - detail: [18]: Connection to sync server closed.
+2019-06-06T18:32:40.928Z - debug: [18]: Closed connection to client 127.0.0.1:53606
+2019-06-06T18:32:40.928Z - debug: The Realm Object Server proxy has 1 open connections to the 'default' sync server
+2019-06-06T18:32:44.719Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":11,"unknown":0,"total":206}
+2019-06-06T18:33:12.060Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 794 - 160.826 ms
+2019-06-06T18:33:14.730Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":12,"unknown":0,"total":207}
+2019-06-06T18:33:15.053Z - debug: [http] 127.0.0.1 - GET /health?thisInstance=true HTTP/1.1 200 20 - 1.128 ms
+2019-06-06T18:33:15.054Z - debug: [http] 127.0.0.1 - GET /health HTTP/1.1 304 - - 5.900 ms
+2019-06-06T18:33:15.422Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.406 ms
+2019-06-06T18:33:15.426Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 8.148 ms
+2019-06-06T18:33:15.462Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 1.668 ms
+2019-06-06T18:33:15.468Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 11.647 ms
+2019-06-06T18:33:15.735Z - debug: [22]: New connection from client at 127.0.0.1:54339
+2019-06-06T18:33:15.736Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-06T18:33:15.741Z - detail: [22]: Connection to sync server established. src=127.0.0.1:54340 dst=127.0.0.1:65178
+2019-06-06T18:33:15.744Z - info: [sync] Sync Connection[35]: Session[1]: Client info: (path='/__admin', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:54340, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T18:33:15.745Z - info: [sync] Sync Connection[35]: Session[1]: Bound to client file (client_file_ident=6)
+2019-06-06T18:33:15.748Z - debug: [23]: New connection from client at 127.0.0.1:54341
+2019-06-06T18:33:15.748Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T18:33:15.752Z - detail: [23]: Connection to sync server established. src=127.0.0.1:54342 dst=127.0.0.1:65178
+2019-06-06T18:33:15.754Z - info: [sync] Sync Connection[36]: Session[2]: Client info: (path='/__metrics', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:54342, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T18:33:15.755Z - info: [sync] Sync Connection[36]: Session[2]: Bound to client file (client_file_ident=3)
+2019-06-06T18:33:21.635Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.312 ms
+2019-06-06T18:33:21.639Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 7.729 ms
+2019-06-06T18:33:22.007Z - debug: [24]: New connection from client at 127.0.0.1:54352
+2019-06-06T18:33:22.007Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:33:22.009Z - detail: [24]: Connection to sync server established. src=127.0.0.1:54353 dst=127.0.0.1:65178
+2019-06-06T18:33:22.019Z - info: [sync] Sync Connection[37]: Session[1]: Client info: (path='/OfflineFirstPOC', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:54353, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T18:33:22.019Z - info: [sync] Sync Connection[37]: Session[1]: Bound to client file (client_file_ident=4)
+2019-06-06T18:33:22.108Z - detail: [24]: Connection to sync server closed.
+2019-06-06T18:33:22.109Z - debug: [24]: Closed connection to client 127.0.0.1:54352
+2019-06-06T18:33:22.109Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T18:33:22.116Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.874 ms
+2019-06-06T18:33:22.121Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 9.626 ms
+2019-06-06T18:33:22.439Z - debug: [25]: New connection from client at 127.0.0.1:54355
+2019-06-06T18:33:22.442Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:33:22.443Z - detail: [25]: Connection to sync server established. src=127.0.0.1:54356 dst=127.0.0.1:65178
+2019-06-06T18:33:22.446Z - info: [sync] Sync Connection[38]: Session[2]: Client info: (path='/OfflineFirstPOC', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:54356, protocol=25) RealmSync/3.14.14 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/Unknown Realm Studio 3.5.0
+2019-06-06T18:33:22.447Z - info: [sync] Sync Connection[38]: Session[2]: Bound to client file (client_file_ident=4)
+2019-06-06T18:33:24.742Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T18:33:34.739Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:35:05.753Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 14.017 ms
+2019-06-06T18:35:05.761Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 29.691 ms
+2019-06-06T18:35:05.954Z - debug: [26]: New connection from client at 127.0.0.1:54568
+2019-06-06T18:35:05.955Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T18:35:05.956Z - detail: [26]: Connection to sync server established. src=127.0.0.1:54569 dst=127.0.0.1:65178
+2019-06-06T18:35:05.959Z - info: [sync] Sync Connection[39]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:54569, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:35:05.960Z - info: [sync] Sync Connection[39]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-06T18:35:14.780Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T18:36:23.705Z - detail: [26]: Connection to sync server closed.
+2019-06-06T18:36:23.705Z - debug: [26]: Closed connection to client 127.0.0.1:54568
+2019-06-06T18:36:23.706Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:36:24.802Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:38:55.242Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 2.424 ms
+2019-06-06T18:38:55.243Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.695 ms
+2019-06-06T18:38:55.246Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 14.122 ms
+2019-06-06T18:38:55.249Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 11.678 ms
+2019-06-06T18:39:01.182Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.310 ms
+2019-06-06T18:39:01.187Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 8.589 ms
+2019-06-06T18:39:04.848Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T18:39:14.848Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:40:28.915Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.637 ms
+2019-06-06T18:40:28.920Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 8.121 ms
+2019-06-06T18:40:29.062Z - debug: [27]: New connection from client at 127.0.0.1:55060
+2019-06-06T18:40:29.065Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T18:40:29.068Z - detail: [27]: Connection to sync server established. src=127.0.0.1:55061 dst=127.0.0.1:65178
+2019-06-06T18:40:29.071Z - info: [sync] Sync Connection[40]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:55061, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:40:29.071Z - info: [sync] Sync Connection[40]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-06T18:40:34.884Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T18:41:22.085Z - detail: [27]: Connection to sync server closed.
+2019-06-06T18:41:22.086Z - debug: [27]: Closed connection to client 127.0.0.1:55060
+2019-06-06T18:41:22.087Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:41:24.907Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:42:06.099Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 4.900 ms
+2019-06-06T18:42:06.103Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 12.902 ms
+2019-06-06T18:42:06.320Z - debug: [28]: New connection from client at 127.0.0.1:55228
+2019-06-06T18:42:06.321Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T18:42:06.324Z - detail: [28]: Connection to sync server established. src=127.0.0.1:55230 dst=127.0.0.1:65178
+2019-06-06T18:42:06.326Z - info: [sync] Sync Connection[41]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:55230, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:42:06.327Z - info: [sync] Sync Connection[41]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-06T18:42:14.929Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T18:43:03.004Z - detail: [28]: Connection to sync server closed.
+2019-06-06T18:43:03.007Z - debug: [28]: Closed connection to client 127.0.0.1:55228
+2019-06-06T18:43:03.007Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:43:04.942Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:44:35.034Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 5.052 ms
+2019-06-06T18:44:35.035Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.844 ms
+2019-06-06T18:44:35.038Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 13.212 ms
+2019-06-06T18:44:35.043Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 14.221 ms
+2019-06-06T18:44:41.023Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.129 ms
+2019-06-06T18:44:41.026Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 6.677 ms
+2019-06-06T18:44:44.981Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T18:44:54.981Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:46:29.303Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.104 ms
+2019-06-06T18:46:29.308Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 8.279 ms
+2019-06-06T18:46:29.547Z - debug: [29]: New connection from client at 127.0.0.1:55658
+2019-06-06T18:46:29.548Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T18:46:29.551Z - detail: [29]: Connection to sync server established. src=127.0.0.1:55659 dst=127.0.0.1:65178
+2019-06-06T18:46:29.554Z - info: [sync] Sync Connection[42]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:55659, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:46:29.555Z - info: [sync] Sync Connection[42]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-06T18:46:35.012Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T18:50:15.212Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 4.146 ms
+2019-06-06T18:50:15.213Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 4.266 ms
+2019-06-06T18:50:15.218Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 17.590 ms
+2019-06-06T18:50:15.222Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 17.574 ms
+2019-06-06T18:50:21.256Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 0.950 ms
+2019-06-06T18:50:21.258Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 7.104 ms
+2019-06-06T18:50:25.086Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":24,"unknown":0,"total":219}
+2019-06-06T18:50:35.091Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T18:54:27.736Z - detail: [29]: Connection to sync server closed.
+2019-06-06T18:54:27.737Z - debug: [29]: Closed connection to client 127.0.0.1:55658
+2019-06-06T18:54:27.737Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T18:54:35.183Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:55:55.320Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 3.576 ms
+2019-06-06T18:55:55.322Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 3.459 ms
+2019-06-06T18:55:55.329Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 18.508 ms
+2019-06-06T18:55:55.335Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 22.000 ms
+2019-06-06T18:56:01.341Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.648 ms
+2019-06-06T18:56:01.346Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 9.268 ms
+2019-06-06T18:56:05.215Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T18:56:15.219Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T18:59:46.440Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 11.956 ms
+2019-06-06T18:59:46.445Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 20.166 ms
+2019-06-06T18:59:46.558Z - debug: [30]: New connection from client at 127.0.0.1:57008
+2019-06-06T18:59:46.559Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T18:59:46.561Z - detail: [30]: Connection to sync server established. src=127.0.0.1:57009 dst=127.0.0.1:65178
+2019-06-06T18:59:46.563Z - info: [sync] Sync Connection[43]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:57009, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T18:59:46.563Z - info: [sync] Sync Connection[43]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-06T18:59:55.297Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T19:01:42.874Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.897 ms
+2019-06-06T19:01:42.875Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 2.066 ms
+2019-06-06T19:01:42.877Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 8.749 ms
+2019-06-06T19:01:42.881Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 10.661 ms
+2019-06-06T19:01:45.332Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":25,"unknown":0,"total":220}
+2019-06-06T19:01:51.870Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.033 ms
+2019-06-06T19:01:51.873Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 5.371 ms
+2019-06-06T19:01:55.333Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":24,"unknown":0,"total":219}
+2019-06-06T19:02:05.335Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T19:07:22.334Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 1.792 ms
+2019-06-06T19:07:22.335Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.864 ms
+2019-06-06T19:07:22.337Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 9.156 ms
+2019-06-06T19:07:22.340Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 10.035 ms
+2019-06-06T19:07:25.466Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":25,"unknown":0,"total":220}
+2019-06-06T19:07:31.331Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.371 ms
+2019-06-06T19:07:31.334Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 6.932 ms
+2019-06-06T19:07:35.474Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":24,"unknown":0,"total":219}
+2019-06-06T19:07:45.459Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T19:13:02.247Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.103 ms
+2019-06-06T19:13:02.247Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 1.831 ms
+2019-06-06T19:13:02.250Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 9.739 ms
+2019-06-06T19:13:02.253Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 11.067 ms
+2019-06-06T19:13:05.571Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":25,"unknown":0,"total":220}
+2019-06-06T19:13:11.243Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.196 ms
+2019-06-06T19:13:11.247Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 6.890 ms
+2019-06-06T19:13:15.577Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":24,"unknown":0,"total":219}
+2019-06-06T19:13:25.580Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T19:18:42.257Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 2.288 ms
+2019-06-06T19:18:42.258Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.308 ms
+2019-06-06T19:18:42.261Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 9.047 ms
+2019-06-06T19:18:42.265Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 11.430 ms
+2019-06-06T19:18:45.676Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":25,"unknown":0,"total":220}
+2019-06-06T19:18:51.254Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.245 ms
+2019-06-06T19:18:51.258Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 6.086 ms
+2019-06-06T19:18:55.681Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":24,"unknown":0,"total":219}
+2019-06-06T19:19:05.684Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T19:24:22.281Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 3.208 ms
+2019-06-06T19:24:22.282Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 3.166 ms
+2019-06-06T19:24:22.285Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 11.520 ms
+2019-06-06T19:24:22.289Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 12.770 ms
+2019-06-06T19:24:25.807Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":25,"unknown":0,"total":220}
+2019-06-06T19:24:31.279Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.033 ms
+2019-06-06T19:24:31.282Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 7.793 ms
+2019-06-06T19:24:32.636Z - detail: [30]: Connection to sync server closed.
+2019-06-06T19:24:32.637Z - debug: [30]: Closed connection to client 127.0.0.1:57008
+2019-06-06T19:24:32.637Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T19:24:35.802Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T19:24:45.804Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T19:30:02.402Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 3.109 ms
+2019-06-06T19:30:02.403Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 1.855 ms
+2019-06-06T19:30:02.406Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 8.350 ms
+2019-06-06T19:30:02.409Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 9.669 ms
+2019-06-06T19:30:05.910Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":22,"unknown":0,"total":217}
+2019-06-06T19:30:11.400Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 0.950 ms
+2019-06-06T19:30:11.402Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 6.213 ms
+2019-06-06T19:30:15.917Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T19:30:25.920Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T19:35:42.413Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.213 ms
+2019-06-06T19:35:42.415Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 2.233 ms
+2019-06-06T19:35:42.420Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 16.790 ms
+2019-06-06T19:35:42.426Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 16.858 ms
+2019-06-06T19:35:46.037Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":22,"unknown":0,"total":217}
+2019-06-06T19:35:51.421Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 0.918 ms
+2019-06-06T19:35:51.424Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 6.795 ms
+2019-06-06T19:35:56.041Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T19:36:06.046Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T19:41:22.440Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 5.481 ms
+2019-06-06T19:41:22.441Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 4.645 ms
+2019-06-06T19:41:22.444Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 13.956 ms
+2019-06-06T19:41:22.447Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 14.628 ms
+2019-06-06T19:41:26.162Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":22,"unknown":0,"total":217}
+2019-06-06T19:41:31.438Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.683 ms
+2019-06-06T19:41:31.441Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 8.233 ms
+2019-06-06T19:41:36.162Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T19:41:46.201Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T19:47:02.461Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 2.017 ms
+2019-06-06T19:47:02.462Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.338 ms
+2019-06-06T19:47:02.466Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 21.100 ms
+2019-06-06T19:47:02.469Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 12.182 ms
+2019-06-06T19:47:06.267Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":22,"unknown":0,"total":217}
+2019-06-06T19:47:11.325Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 2.178 ms
+2019-06-06T19:47:11.329Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 8.561 ms
+2019-06-06T19:47:16.264Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T19:47:26.272Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T19:50:25.348Z - error: [http] HTTP response: 12ab7a5b-57d2-4be9-9cfb-d09a3f433be6
+{"type":"https://docs.realm.io/server/troubleshoot/errors#invalid-credentials","title":"The provided credentials are invalid or the user does not exist.","status":401,"code":611}
+2019-06-06T19:50:25.349Z - debug: Returning error response status=401, title=The provided credentials are invalid or the user does not exist., path=invalid-credentials, code=611, class=InvalidCredentials
+2019-06-06T19:50:25.349Z - debug: Error: The provided credentials are invalid or the user does not exist.
+    at PasswordAuthProvider.<anonymous> (/Users/juanmanuel.gentili/Development/Realm/offline-first-poc/node_modules/realm-object-server/dist/auth/password/PasswordAuthProvider.js:307:23)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/juanmanuel.gentili/Development/Realm/offline-first-poc/node_modules/realm-object-server/dist/auth/password/PasswordAuthProvider.js:4:58)
+2019-06-06T19:50:25.351Z - detail: [http] 127.0.0.1 - POST /auth HTTP/1.1 401 178 - 83.510 ms
+2019-06-06T19:50:26.353Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T19:50:36.326Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T19:51:01.197Z - error: [http] HTTP response: e73a124f-8664-45d4-82a9-768547b1be3d
+{"type":"https://docs.realm.io/server/troubleshoot/errors#invalid-credentials","title":"The provided credentials are invalid or the user does not exist.","status":401,"code":611}
+2019-06-06T19:51:01.198Z - debug: Returning error response status=401, title=The provided credentials are invalid or the user does not exist., path=invalid-credentials, code=611, class=InvalidCredentials
+2019-06-06T19:51:01.198Z - debug: Error: The provided credentials are invalid or the user does not exist.
+    at PasswordAuthProvider.<anonymous> (/Users/juanmanuel.gentili/Development/Realm/offline-first-poc/node_modules/realm-object-server/dist/auth/password/PasswordAuthProvider.js:307:23)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/juanmanuel.gentili/Development/Realm/offline-first-poc/node_modules/realm-object-server/dist/auth/password/PasswordAuthProvider.js:4:58)
+2019-06-06T19:51:01.198Z - detail: [http] 127.0.0.1 - POST /auth HTTP/1.1 401 178 - 77.535 ms
+2019-06-06T19:51:35.071Z - detail: [23]: Connection to sync server closed.
+2019-06-06T19:51:35.072Z - debug: [23]: Closed connection to client 127.0.0.1:54341
+2019-06-06T19:51:35.072Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T19:51:36.397Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T19:52:18.224Z - error: [http] HTTP response: b42a4d82-c58f-4820-ab95-bae54b7f102e
+{"type":"https://docs.realm.io/server/troubleshoot/errors#invalid-credentials","title":"The provided credentials are invalid or the user does not exist.","status":401,"code":611}
+2019-06-06T19:52:18.224Z - debug: Returning error response status=401, title=The provided credentials are invalid or the user does not exist., path=invalid-credentials, code=611, class=InvalidCredentials
+2019-06-06T19:52:18.224Z - debug: Error: The provided credentials are invalid or the user does not exist.
+    at PasswordAuthProvider.<anonymous> (/Users/juanmanuel.gentili/Development/Realm/offline-first-poc/node_modules/realm-object-server/dist/auth/password/PasswordAuthProvider.js:307:23)
+    at Generator.next (<anonymous>)
+    at fulfilled (/Users/juanmanuel.gentili/Development/Realm/offline-first-poc/node_modules/realm-object-server/dist/auth/password/PasswordAuthProvider.js:4:58)
+2019-06-06T19:52:18.225Z - detail: [http] 127.0.0.1 - POST /auth HTTP/1.1 401 178 - 88.837 ms
+2019-06-06T19:52:42.020Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.110 ms
+2019-06-06T19:52:42.023Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 7.087 ms
+2019-06-06T19:52:46.390Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":18,"unknown":0,"total":213}
+2019-06-06T19:52:51.023Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 2.380 ms
+2019-06-06T19:52:51.027Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 8.759 ms
+2019-06-06T19:52:51.060Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 794 - 106.696 ms
+2019-06-06T19:52:56.434Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T19:52:56.694Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.456 ms
+2019-06-06T19:52:56.697Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 8.125 ms
+2019-06-06T19:52:56.702Z - debug: [31]: New connection from client at 127.0.0.1:62929
+2019-06-06T19:52:56.703Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T19:52:56.705Z - detail: [31]: Connection to sync server established. src=127.0.0.1:62930 dst=127.0.0.1:65178
+2019-06-06T19:52:56.707Z - info: [sync] Sync Connection[44]: Session[1]: Client info: (path='/__admin', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:62930, protocol=22) 
+2019-06-06T19:52:56.738Z - info: [sync] Sync Connection[44]: Session[1]: Bound to client file (client_file_ident=7)
+2019-06-06T19:53:06.393Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T19:53:57.022Z - detail: [31]: Connection to sync server closed.
+2019-06-06T19:53:57.023Z - debug: [31]: Closed connection to client 127.0.0.1:62929
+2019-06-06T19:53:57.023Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T19:54:06.417Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T19:58:23.853Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.373 ms
+2019-06-06T19:58:23.857Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 7.921 ms
+2019-06-06T19:58:26.510Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":18,"unknown":0,"total":213}
+2019-06-06T19:58:31.502Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.760 ms
+2019-06-06T19:58:31.504Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 6.574 ms
+2019-06-06T19:58:36.511Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T20:04:03.508Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.022 ms
+2019-06-06T20:04:03.511Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 5.382 ms
+2019-06-06T20:04:06.629Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":18,"unknown":0,"total":213}
+2019-06-06T20:04:11.511Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 0.980 ms
+2019-06-06T20:04:11.514Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 5.740 ms
+2019-06-06T20:04:16.634Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T20:09:48.394Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 0.969 ms
+2019-06-06T20:09:48.397Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 4.971 ms
+2019-06-06T20:09:58.056Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.674 ms
+2019-06-06T20:09:58.059Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 7.194 ms
+2019-06-06T20:15:28.547Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.016 ms
+2019-06-06T20:15:28.550Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 5.473 ms
+2019-06-06T20:15:38.546Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 0.878 ms
+2019-06-06T20:15:38.548Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 5.213 ms
+2019-06-06T20:20:35.047Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 794 - 83.116 ms
+2019-06-06T20:20:35.328Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.149 ms
+2019-06-06T20:20:35.331Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 7.044 ms
+2019-06-06T20:20:35.337Z - debug: [32]: New connection from client at 127.0.0.1:50051
+2019-06-06T20:20:35.337Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T20:20:35.339Z - detail: [32]: Connection to sync server established. src=127.0.0.1:50052 dst=127.0.0.1:65178
+2019-06-06T20:20:35.341Z - info: [sync] Sync Connection[45]: Session[1]: Client info: (path='/__admin', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:50052, protocol=22) 
+2019-06-06T20:20:35.342Z - info: [sync] Sync Connection[45]: Session[1]: Bound to client file (client_file_ident=7)
+2019-06-06T20:20:36.999Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T20:20:47.008Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T20:21:10.960Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.236 ms
+2019-06-06T20:21:10.964Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 6.761 ms
+2019-06-06T20:21:25.933Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 3.189 ms
+2019-06-06T20:21:25.935Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 10.978 ms
+2019-06-06T20:21:27.015Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T20:21:37.022Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T20:21:51.093Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 4.082 ms
+2019-06-06T20:21:51.097Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 12.936 ms
+2019-06-06T20:21:51.197Z - debug: [33]: New connection from client at 127.0.0.1:51605
+2019-06-06T20:21:51.198Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T20:21:51.201Z - detail: [33]: Connection to sync server established. src=127.0.0.1:51606 dst=127.0.0.1:65178
+2019-06-06T20:21:51.210Z - info: [sync] Sync Connection[46]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:51606, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T20:21:51.210Z - info: [sync] Sync Connection[46]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-06T20:21:57.039Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T20:26:50.588Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.005 ms
+2019-06-06T20:26:50.592Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 7.025 ms
+2019-06-06T20:27:05.589Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 2.138 ms
+2019-06-06T20:27:05.592Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 7.088 ms
+2019-06-06T20:27:07.131Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":24,"unknown":0,"total":219}
+2019-06-06T20:27:17.136Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":23,"unknown":0,"total":218}
+2019-06-06T20:28:07.443Z - detail: [32]: Connection to sync server closed.
+2019-06-06T20:28:07.446Z - debug: [32]: Closed connection to client 127.0.0.1:50051
+2019-06-06T20:28:07.446Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T20:28:17.152Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T20:28:17.751Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 794 - 101.703 ms
+2019-06-06T20:28:18.057Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.044 ms
+2019-06-06T20:28:18.059Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 6.210 ms
+2019-06-06T20:28:18.066Z - debug: [34]: New connection from client at 127.0.0.1:59324
+2019-06-06T20:28:18.066Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T20:28:18.068Z - detail: [34]: Connection to sync server established. src=127.0.0.1:59325 dst=127.0.0.1:65178
+2019-06-06T20:28:18.071Z - info: [sync] Sync Connection[47]: Session[1]: Client info: (path='/__admin', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:59325, protocol=22) 
+2019-06-06T20:28:18.072Z - info: [sync] Sync Connection[47]: Session[1]: Bound to client file (client_file_ident=7)
+2019-06-06T20:28:18.140Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fdefault?shouldCreate=true&realmType=full HTTP/1.1 200 79 - 1.701 ms
+2019-06-06T20:28:18.144Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 8.848 ms
+2019-06-06T20:28:18.172Z - debug: [35]: New connection from client at 127.0.0.1:59329
+2019-06-06T20:28:18.173Z - debug: The Realm Object Server proxy has 6 open connections to the 'default' sync server
+2019-06-06T20:28:18.175Z - detail: [35]: Connection to sync server established. src=127.0.0.1:59330 dst=127.0.0.1:65178
+2019-06-06T20:28:18.178Z - info: [sync] Sync Connection[48]: Session[2]: Client info: (path='/default', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:59330, protocol=22) 
+2019-06-06T20:28:18.196Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.405 ms
+2019-06-06T20:28:18.199Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 8.350 ms
+2019-06-06T20:28:18.245Z - debug: [36]: New connection from client at 127.0.0.1:59332
+2019-06-06T20:28:18.248Z - debug: The Realm Object Server proxy has 7 open connections to the 'default' sync server
+2019-06-06T20:28:18.249Z - info: [sync] Sync Connection[48]: Session[2]: Bound to client file (client_file_ident=3)
+2019-06-06T20:28:18.250Z - detail: [36]: Connection to sync server established. src=127.0.0.1:59334 dst=127.0.0.1:65178
+2019-06-06T20:28:18.283Z - info: [sync] Sync Connection[49]: Session[3]: Client info: (path='/__admin', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:59334, protocol=22) 
+2019-06-06T20:28:18.289Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__wildcardpermissions?shouldCreate=true&realmType=full HTTP/1.1 200 88 - 2.689 ms
+2019-06-06T20:28:18.293Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 870 - 29.679 ms
+2019-06-06T20:28:18.342Z - info: [sync] Sync Connection[49]: Session[3]: Bound to client file (client_file_ident=8)
+2019-06-06T20:28:18.343Z - debug: [37]: New connection from client at 127.0.0.1:59337
+2019-06-06T20:28:18.344Z - debug: The Realm Object Server proxy has 8 open connections to the 'default' sync server
+2019-06-06T20:28:18.350Z - detail: [37]: Connection to sync server established. src=127.0.0.1:59339 dst=127.0.0.1:65178
+2019-06-06T20:28:18.351Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__configuration?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.115 ms
+2019-06-06T20:28:18.354Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 8.000 ms
+2019-06-06T20:28:18.394Z - info: [sync] Sync Connection[50]: Session[4]: Client info: (path='/__wildcardpermissions', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:59339, protocol=22) 
+2019-06-06T20:28:18.407Z - info: [sync] Sync Connection[50]: Session[4]: Bound to client file (client_file_ident=3)
+2019-06-06T20:28:18.410Z - debug: [38]: New connection from client at 127.0.0.1:59343
+2019-06-06T20:28:18.411Z - debug: The Realm Object Server proxy has 9 open connections to the 'default' sync server
+2019-06-06T20:28:18.412Z - detail: [38]: Connection to sync server established. src=127.0.0.1:59344 dst=127.0.0.1:65178
+2019-06-06T20:28:18.414Z - info: [sync] Sync Connection[51]: Session[5]: Client info: (path='/__configuration', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:59344, protocol=22) 
+2019-06-06T20:28:18.425Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 1.407 ms
+2019-06-06T20:28:18.429Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 8.446 ms
+2019-06-06T20:28:18.435Z - info: [sync] Sync Connection[51]: Session[5]: Bound to client file (client_file_ident=3)
+2019-06-06T20:28:18.480Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__password?shouldCreate=true&realmType=full HTTP/1.1 200 77 - 2.427 ms
+2019-06-06T20:28:18.484Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 843 - 9.697 ms
+2019-06-06T20:28:18.552Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.016 ms
+2019-06-06T20:28:18.555Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 7.973 ms
+2019-06-06T20:28:27.161Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":35,"unknown":0,"total":230}
+2019-06-06T20:28:43.231Z - debug: [39]: New connection from client at 127.0.0.1:59854
+2019-06-06T20:28:43.232Z - debug: The Realm Object Server proxy has 10 open connections to the 'default' sync server
+2019-06-06T20:28:43.234Z - detail: [39]: Connection to sync server established. src=127.0.0.1:59855 dst=127.0.0.1:65178
+2019-06-06T20:28:43.237Z - info: [sync] Sync Connection[52]: Session[6]: Client info: (path='/__metrics', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:59855, protocol=22) 
+2019-06-06T20:28:43.250Z - info: [sync] Sync Connection[52]: Session[6]: Bound to client file (client_file_ident=4)
+2019-06-06T20:28:44.540Z - debug: [40]: New connection from client at 127.0.0.1:59887
+2019-06-06T20:28:44.541Z - debug: The Realm Object Server proxy has 11 open connections to the 'default' sync server
+2019-06-06T20:28:44.542Z - debug: [41]: New connection from client at 127.0.0.1:59888
+2019-06-06T20:28:44.543Z - debug: The Realm Object Server proxy has 12 open connections to the 'default' sync server
+2019-06-06T20:28:44.545Z - detail: [40]: Connection to sync server established. src=127.0.0.1:59889 dst=127.0.0.1:65178
+2019-06-06T20:28:44.545Z - detail: [41]: Connection to sync server established. src=127.0.0.1:59890 dst=127.0.0.1:65178
+2019-06-06T20:28:44.549Z - info: [sync] Sync Connection[53]: Session[7]: Client info: (path='/OfflineFirstPOC', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:59889, protocol=22) 
+2019-06-06T20:28:44.553Z - info: [sync] Sync Connection[54]: Session[8]: Client info: (path='/__password', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:59890, protocol=22) 
+2019-06-06T20:28:44.572Z - info: [sync] Sync Connection[53]: Session[7]: Bound to client file (client_file_ident=5)
+2019-06-06T20:28:44.614Z - info: [sync] Sync Connection[54]: Session[8]: Bound to client file (client_file_ident=3)
+2019-06-06T20:28:47.170Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":44,"unknown":0,"total":239}
+2019-06-06T20:28:59.396Z - detail: [33]: Connection to sync server closed.
+2019-06-06T20:28:59.397Z - debug: [33]: Closed connection to client 127.0.0.1:51605
+2019-06-06T20:28:59.397Z - debug: The Realm Object Server proxy has 11 open connections to the 'default' sync server
+2019-06-06T20:28:59.438Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 6.810 ms
+2019-06-06T20:28:59.443Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 26.886 ms
+2019-06-06T20:28:59.503Z - debug: [42]: New connection from client at 127.0.0.1:60194
+2019-06-06T20:28:59.506Z - debug: The Realm Object Server proxy has 12 open connections to the 'default' sync server
+2019-06-06T20:28:59.512Z - detail: [42]: Connection to sync server established. src=127.0.0.1:60195 dst=127.0.0.1:65178
+2019-06-06T20:28:59.517Z - info: [sync] Sync Connection[55]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:60195, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T20:28:59.518Z - info: [sync] Sync Connection[55]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-06T20:31:11.846Z - detail: [41]: Connection to sync server closed.
+2019-06-06T20:31:11.846Z - detail: [40]: Connection to sync server closed.
+2019-06-06T20:31:11.849Z - detail: [39]: Connection to sync server closed.
+2019-06-06T20:31:11.849Z - debug: [40]: Closed connection to client 127.0.0.1:59887
+2019-06-06T20:31:11.850Z - debug: The Realm Object Server proxy has 11 open connections to the 'default' sync server
+2019-06-06T20:31:11.850Z - debug: [41]: Closed connection to client 127.0.0.1:59888
+2019-06-06T20:31:11.850Z - debug: The Realm Object Server proxy has 10 open connections to the 'default' sync server
+2019-06-06T20:31:11.850Z - detail: [38]: Connection to sync server closed.
+2019-06-06T20:31:11.850Z - detail: [37]: Connection to sync server closed.
+2019-06-06T20:31:11.855Z - detail: [36]: Connection to sync server closed.
+2019-06-06T20:31:11.855Z - detail: [35]: Connection to sync server closed.
+2019-06-06T20:31:11.855Z - detail: [34]: Connection to sync server closed.
+2019-06-06T20:31:11.856Z - debug: [37]: Closed connection to client 127.0.0.1:59337
+2019-06-06T20:31:11.856Z - debug: The Realm Object Server proxy has 9 open connections to the 'default' sync server
+2019-06-06T20:31:11.857Z - debug: [38]: Closed connection to client 127.0.0.1:59343
+2019-06-06T20:31:11.857Z - debug: The Realm Object Server proxy has 8 open connections to the 'default' sync server
+2019-06-06T20:31:11.857Z - debug: [39]: Closed connection to client 127.0.0.1:59854
+2019-06-06T20:31:11.857Z - debug: The Realm Object Server proxy has 7 open connections to the 'default' sync server
+2019-06-06T20:31:11.859Z - debug: [34]: Closed connection to client 127.0.0.1:59324
+2019-06-06T20:31:11.859Z - debug: The Realm Object Server proxy has 6 open connections to the 'default' sync server
+2019-06-06T20:31:11.859Z - debug: [35]: Closed connection to client 127.0.0.1:59329
+2019-06-06T20:31:11.859Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T20:31:11.859Z - debug: [36]: Closed connection to client 127.0.0.1:59332
+2019-06-06T20:31:11.859Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T20:31:17.219Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T20:32:30.439Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.042 ms
+2019-06-06T20:32:30.442Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 5.953 ms
+2019-06-06T20:32:45.439Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.402 ms
+2019-06-06T20:32:45.442Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 5.967 ms
+2019-06-06T20:32:47.235Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T20:32:57.241Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T20:37:24.113Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 794 - 80.845 ms
+2019-06-06T20:37:24.366Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.950 ms
+2019-06-06T20:37:24.369Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 9.152 ms
+2019-06-06T20:37:24.375Z - debug: [43]: New connection from client at 127.0.0.1:63563
+2019-06-06T20:37:24.375Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T20:37:24.376Z - detail: [43]: Connection to sync server established. src=127.0.0.1:63564 dst=127.0.0.1:65178
+2019-06-06T20:37:24.379Z - info: [sync] Sync Connection[56]: Session[1]: Client info: (path='/__admin', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:63564, protocol=22) 
+2019-06-06T20:37:24.379Z - info: [sync] Sync Connection[56]: Session[1]: Bound to client file (client_file_ident=7)
+2019-06-06T20:37:24.425Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fdefault?shouldCreate=true&realmType=full HTTP/1.1 200 79 - 9.033 ms
+2019-06-06T20:37:24.430Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 17.109 ms
+2019-06-06T20:37:24.466Z - debug: [44]: New connection from client at 127.0.0.1:63568
+2019-06-06T20:37:24.466Z - debug: The Realm Object Server proxy has 6 open connections to the 'default' sync server
+2019-06-06T20:37:24.470Z - detail: [44]: Connection to sync server established. src=127.0.0.1:63569 dst=127.0.0.1:65178
+2019-06-06T20:37:24.474Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.916 ms
+2019-06-06T20:37:24.474Z - info: [sync] Sync Connection[57]: Session[2]: Client info: (path='/default', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:63569, protocol=22) 
+2019-06-06T20:37:24.474Z - info: [sync] Sync Connection[57]: Session[2]: Bound to client file (client_file_ident=3)
+2019-06-06T20:37:24.479Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 10.606 ms
+2019-06-06T20:37:24.495Z - debug: [45]: New connection from client at 127.0.0.1:63572
+2019-06-06T20:37:24.495Z - debug: The Realm Object Server proxy has 7 open connections to the 'default' sync server
+2019-06-06T20:37:24.497Z - detail: [45]: Connection to sync server established. src=127.0.0.1:63573 dst=127.0.0.1:65178
+2019-06-06T20:37:24.499Z - info: [sync] Sync Connection[58]: Session[3]: Client info: (path='/__admin', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:63573, protocol=22) 
+2019-06-06T20:37:24.500Z - info: [sync] Sync Connection[58]: Session[3]: Bound to client file (client_file_ident=8)
+2019-06-06T20:37:24.511Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__wildcardpermissions?shouldCreate=true&realmType=full HTTP/1.1 200 88 - 3.717 ms
+2019-06-06T20:37:24.515Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 870 - 10.769 ms
+2019-06-06T20:37:24.519Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__configuration?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 2.247 ms
+2019-06-06T20:37:24.522Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 13.936 ms
+2019-06-06T20:37:24.524Z - debug: [46]: New connection from client at 127.0.0.1:63578
+2019-06-06T20:37:24.524Z - debug: The Realm Object Server proxy has 8 open connections to the 'default' sync server
+2019-06-06T20:37:24.526Z - detail: [46]: Connection to sync server established. src=127.0.0.1:63579 dst=127.0.0.1:65178
+2019-06-06T20:37:24.530Z - info: [sync] Sync Connection[59]: Session[4]: Client info: (path='/__wildcardpermissions', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:63579, protocol=22) 
+2019-06-06T20:37:24.530Z - info: [sync] Sync Connection[59]: Session[4]: Bound to client file (client_file_ident=3)
+2019-06-06T20:37:24.535Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 2.734 ms
+2019-06-06T20:37:24.539Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 10.439 ms
+2019-06-06T20:37:24.554Z - debug: [47]: New connection from client at 127.0.0.1:63581
+2019-06-06T20:37:24.555Z - debug: The Realm Object Server proxy has 9 open connections to the 'default' sync server
+2019-06-06T20:37:24.558Z - debug: [48]: New connection from client at 127.0.0.1:63582
+2019-06-06T20:37:24.559Z - debug: The Realm Object Server proxy has 10 open connections to the 'default' sync server
+2019-06-06T20:37:24.568Z - detail: [47]: Connection to sync server established. src=127.0.0.1:63583 dst=127.0.0.1:65178
+2019-06-06T20:37:24.569Z - detail: [48]: Connection to sync server established. src=127.0.0.1:63584 dst=127.0.0.1:65178
+2019-06-06T20:37:24.573Z - info: [sync] Sync Connection[60]: Session[5]: Client info: (path='/__configuration', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:63583, protocol=22) 
+2019-06-06T20:37:24.573Z - info: [sync] Sync Connection[60]: Session[5]: Bound to client file (client_file_ident=3)
+2019-06-06T20:37:24.575Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__password?shouldCreate=true&realmType=full HTTP/1.1 200 77 - 4.328 ms
+2019-06-06T20:37:24.576Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 3.841 ms
+2019-06-06T20:37:24.576Z - info: [sync] Sync Connection[61]: Session[6]: Client info: (path='/__metrics', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:63584, protocol=22) 
+2019-06-06T20:37:24.576Z - info: [sync] Sync Connection[61]: Session[6]: Bound to client file (client_file_ident=4)
+2019-06-06T20:37:24.579Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 843 - 17.895 ms
+2019-06-06T20:37:24.583Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 20.339 ms
+2019-06-06T20:37:24.586Z - debug: [49]: New connection from client at 127.0.0.1:63588
+2019-06-06T20:37:24.586Z - debug: The Realm Object Server proxy has 11 open connections to the 'default' sync server
+2019-06-06T20:37:24.590Z - detail: [49]: Connection to sync server established. src=127.0.0.1:63589 dst=127.0.0.1:65178
+2019-06-06T20:37:24.592Z - info: [sync] Sync Connection[62]: Session[7]: Client info: (path='/__password', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:63589, protocol=22) 
+2019-06-06T20:37:24.592Z - info: [sync] Sync Connection[62]: Session[7]: Bound to client file (client_file_ident=3)
+2019-06-06T20:37:24.593Z - debug: [50]: New connection from client at 127.0.0.1:63590
+2019-06-06T20:37:24.594Z - debug: The Realm Object Server proxy has 12 open connections to the 'default' sync server
+2019-06-06T20:37:24.595Z - detail: [50]: Connection to sync server established. src=127.0.0.1:63591 dst=127.0.0.1:65178
+2019-06-06T20:37:24.598Z - info: [sync] Sync Connection[63]: Session[8]: Client info: (path='/OfflineFirstPOC', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:63591, protocol=22) 
+2019-06-06T20:37:24.598Z - info: [sync] Sync Connection[63]: Session[8]: Bound to client file (client_file_ident=5)
+2019-06-06T20:37:27.322Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":47,"unknown":0,"total":242}
+2019-06-06T20:37:37.331Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":44,"unknown":0,"total":239}
+2019-06-06T20:37:53.711Z - detail: [42]: Connection to sync server closed.
+2019-06-06T20:37:53.712Z - debug: [42]: Closed connection to client 127.0.0.1:60194
+2019-06-06T20:37:53.712Z - debug: The Realm Object Server proxy has 11 open connections to the 'default' sync server
+2019-06-06T20:37:53.725Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 4.220 ms
+2019-06-06T20:37:53.735Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 15.956 ms
+2019-06-06T20:37:53.801Z - debug: [51]: New connection from client at 127.0.0.1:64190
+2019-06-06T20:37:53.802Z - debug: The Realm Object Server proxy has 12 open connections to the 'default' sync server
+2019-06-06T20:37:53.805Z - detail: [51]: Connection to sync server established. src=127.0.0.1:64191 dst=127.0.0.1:65178
+2019-06-06T20:37:53.810Z - info: [sync] Sync Connection[64]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:64191, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-06T20:37:53.811Z - info: [sync] Sync Connection[64]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-06T20:37:57.338Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":45,"unknown":0,"total":240}
+2019-06-06T20:38:07.338Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":44,"unknown":0,"total":239}
+2019-06-06T20:38:10.020Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.351 ms
+2019-06-06T20:38:10.023Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 7.584 ms
+2019-06-06T20:38:25.019Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.055 ms
+2019-06-06T20:38:25.022Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 5.660 ms
+2019-06-06T20:38:27.347Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":45,"unknown":0,"total":240}
+2019-06-06T20:38:37.353Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":44,"unknown":0,"total":239}
+2019-06-06T20:40:12.098Z - detail: [50]: Connection to sync server closed.
+2019-06-06T20:40:12.098Z - detail: [49]: Connection to sync server closed.
+2019-06-06T20:40:12.099Z - detail: [48]: Connection to sync server closed.
+2019-06-06T20:40:12.099Z - detail: [47]: Connection to sync server closed.
+2019-06-06T20:40:12.100Z - debug: [49]: Closed connection to client 127.0.0.1:63588
+2019-06-06T20:40:12.100Z - debug: The Realm Object Server proxy has 11 open connections to the 'default' sync server
+2019-06-06T20:40:12.100Z - debug: [50]: Closed connection to client 127.0.0.1:63590
+2019-06-06T20:40:12.100Z - debug: The Realm Object Server proxy has 10 open connections to the 'default' sync server
+2019-06-06T20:40:12.101Z - detail: [46]: Connection to sync server closed.
+2019-06-06T20:40:12.102Z - debug: [46]: Closed connection to client 127.0.0.1:63578
+2019-06-06T20:40:12.102Z - debug: The Realm Object Server proxy has 9 open connections to the 'default' sync server
+2019-06-06T20:40:12.103Z - debug: [47]: Closed connection to client 127.0.0.1:63581
+2019-06-06T20:40:12.103Z - debug: The Realm Object Server proxy has 8 open connections to the 'default' sync server
+2019-06-06T20:40:12.103Z - debug: [48]: Closed connection to client 127.0.0.1:63582
+2019-06-06T20:40:12.103Z - debug: The Realm Object Server proxy has 7 open connections to the 'default' sync server
+2019-06-06T20:40:12.103Z - detail: [45]: Connection to sync server closed.
+2019-06-06T20:40:12.104Z - debug: [45]: Closed connection to client 127.0.0.1:63572
+2019-06-06T20:40:12.104Z - debug: The Realm Object Server proxy has 6 open connections to the 'default' sync server
+2019-06-06T20:40:12.105Z - detail: [44]: Connection to sync server closed.
+2019-06-06T20:40:12.105Z - debug: [44]: Closed connection to client 127.0.0.1:63568
+2019-06-06T20:40:12.105Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-06T20:40:12.106Z - detail: [43]: Connection to sync server closed.
+2019-06-06T20:40:12.107Z - debug: [43]: Closed connection to client 127.0.0.1:63563
+2019-06-06T20:40:12.107Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-06T20:40:17.388Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T20:43:50.438Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.551 ms
+2019-06-06T20:43:50.441Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 6.750 ms
+2019-06-06T20:44:05.436Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.362 ms
+2019-06-06T20:44:05.442Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 8.365 ms
+2019-06-06T20:44:07.460Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T20:44:17.462Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T21:15:03.363Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 3.869 ms
+2019-06-06T21:15:03.369Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 24.027 ms
+2019-06-06T21:15:04.775Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T21:15:14.808Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":20,"unknown":0,"total":215}
+2019-06-06T21:15:14.938Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 2.328 ms
+2019-06-06T21:15:14.943Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 9.007 ms
+2019-06-06T21:20:43.020Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 0.912 ms
+2019-06-06T21:20:43.022Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 4.956 ms
+2019-06-06T21:20:44.873Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":21,"unknown":0,"total":216}
+2019-06-06T21:20:52.740Z - detail: [51]: Connection to sync server closed.
+2019-06-06T21:20:52.742Z - debug: [51]: Closed connection to client 127.0.0.1:64190
+2019-06-06T21:20:52.742Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-06T21:20:54.018Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.276 ms
+2019-06-06T21:20:54.020Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 6.373 ms
+2019-06-06T21:20:54.880Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":18,"unknown":0,"total":213}
+2019-06-06T21:21:04.900Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T21:26:27.992Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 0.901 ms
+2019-06-06T21:26:27.995Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 5.056 ms
+2019-06-06T21:26:39.261Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 0.872 ms
+2019-06-06T21:26:39.264Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 6.772 ms
+2019-06-06T21:32:09.377Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.021 ms
+2019-06-06T21:32:09.380Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 5.319 ms
+2019-06-06T21:32:25.264Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 0.958 ms
+2019-06-06T21:32:25.266Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 6.036 ms
+2019-06-06T21:32:25.323Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":18,"unknown":0,"total":213}
+2019-06-06T21:32:35.326Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T21:37:49.659Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 0.935 ms
+2019-06-06T21:37:49.662Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 5.001 ms
+2019-06-06T21:38:08.144Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.688 ms
+2019-06-06T21:38:08.155Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 16.230 ms
+2019-06-06T21:43:33.009Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 0.986 ms
+2019-06-06T21:43:33.012Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 5.182 ms
+2019-06-06T21:43:35.748Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":18,"unknown":0,"total":213}
+2019-06-06T21:43:45.753Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T21:43:49.684Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 2.650 ms
+2019-06-06T21:43:49.688Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 9.691 ms
+2019-06-06T21:49:13.899Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 0.862 ms
+2019-06-06T21:49:13.902Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 4.932 ms
+2019-06-06T21:49:15.899Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":18,"unknown":0,"total":213}
+2019-06-06T21:49:25.900Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T21:49:29.905Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 0.903 ms
+2019-06-06T21:49:29.907Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 4.980 ms
+2019-06-06T21:54:53.926Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 1.076 ms
+2019-06-06T21:54:53.929Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 5.838 ms
+2019-06-06T21:54:56.067Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":18,"unknown":0,"total":213}
+2019-06-06T21:55:06.074Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T21:55:09.920Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 0.829 ms
+2019-06-06T21:55:09.923Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 5.706 ms
+2019-06-06T22:00:33.018Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 2.062 ms
+2019-06-06T22:00:33.022Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 7.781 ms
+2019-06-06T22:00:36.315Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":18,"unknown":0,"total":213}
+2019-06-06T22:00:46.312Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":17,"unknown":0,"total":212}
+2019-06-06T22:00:50.214Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 0.947 ms
+2019-06-06T22:00:50.217Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 4.867 ms
+2019-06-07T00:36:02.910Z - detail: [25]: Connection to sync server closed.
+2019-06-07T00:36:02.915Z - detail: [22]: Connection to sync server closed.
+2019-06-07T00:36:02.921Z - debug: [25]: Closed connection to client 127.0.0.1:54355
+2019-06-07T00:36:02.923Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-07T00:36:02.925Z - debug: [22]: Closed connection to client 127.0.0.1:54339
+2019-06-07T00:36:02.925Z - debug: The Realm Object Server proxy has 1 open connections to the 'default' sync server
+2019-06-07T00:36:05.126Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":6,"block-device":0,"pipe":106,"symbolic-link":0,"socket":11,"unknown":0,"total":206}
+2019-06-07T00:36:15.133Z - debug: Open files in Realm Object Server: {"regular":83,"directory":0,"character-device":1,"block-device":0,"pipe":106,"symbolic-link":0,"socket":11,"unknown":0,"total":201}
+2019-06-07T00:36:25.888Z - info: Got signal SIGTERM. Shutting down.
+2019-06-07T00:36:25.918Z - detail: Closed realm at /__password
+2019-06-07T00:36:25.919Z - detail: TokenValidator stopped
+2019-06-07T00:36:25.920Z - detail: Stopping service sync
+2019-06-07T00:36:25.920Z - debug: ignore 'unavailable' message from service watch
+2019-06-07T00:36:25.922Z - detail: Stopping service auth
+2019-06-07T00:36:25.922Z - detail: Stopping service realms
+2019-06-07T00:36:25.925Z - detail: Stopping service log
+2019-06-07T00:36:25.925Z - detail: Stopping service permissions
+2019-06-07T00:36:25.926Z - detail: Stopping service health
+2019-06-07T00:36:25.926Z - detail: Stopping service welcome
+2019-06-07T00:36:25.926Z - detail: Stopping service password-auth-ui
+2019-06-07T00:36:25.926Z - detail: Stopping service stats
+2019-06-07T00:36:25.930Z - detail: Closed realm at /__revocation
+2019-06-07T00:36:25.935Z - detail: Closed realm at /__wildcardpermissions
+2019-06-07T00:36:25.935Z - detail: Stopped service health
+2019-06-07T00:36:25.935Z - detail: Stopped service welcome
+2019-06-07T00:36:25.935Z - detail: Stopped service password-auth-ui
+2019-06-07T00:36:25.935Z - detail: Stopped service stats
+2019-06-07T00:36:25.938Z - detail: Closed realm at /__configuration
+2019-06-07T00:36:25.943Z - detail: Closed realm at /__admin
+2019-06-07T00:36:25.943Z - detail: Stopped service realms
+2019-06-07T00:36:25.943Z - detail: Stopped service log
+2019-06-07T00:36:25.943Z - detail: Stopped service permissions
+2019-06-07T00:36:25.943Z - detail: Stopped service auth
+2019-06-07T00:36:25.944Z - debug: destroyed connection from 127.0.0.1:65190
+2019-06-07T00:36:25.970Z - error: uncaughtException: write EIO date=Thu Jun 06 2019 21:36:25 GMT-0300 (Argentina Standard Time), pid=9722, uid=2012579503, gid=64483641, cwd=/Users/juanmanuel.gentili/Development/Realm/offline-first-poc, execPath=/Users/juanmanuel.gentili/.nvm/versions/node/v10.16.0/bin/node, version=v10.16.0, argv=[/Users/juanmanuel.gentili/.nvm/versions/node/v10.16.0/bin/node, /Users/juanmanuel.gentili/Development/Realm/offline-first-poc/dist/index.js], rss=19423232, heapTotal=37523456, heapUsed=29409680, external=379088, loadavg=[16.06982421875, 18.96142578125, 11.310546875], uptime=43101
+Error: write EIO
+    at WriteWrap.afterWrite [as oncomplete] (net.js:788:14)
+2019-06-07T12:32:32.584Z - info: Realm Object Server version 3.21.1 is starting
+2019-06-07T12:32:32.655Z - detail: Starting service sync
+2019-06-07T12:32:32.656Z - info: [sync] Configuring SyncService with a custom dataPath is deprecated and will be removed in a future version and the value will default to 'sync', relative to the server's dataPath.
+2019-06-07T12:32:32.657Z - detail: Starting service auth
+2019-06-07T12:32:32.658Z - detail: Starting service realms
+2019-06-07T12:32:32.658Z - detail: Starting service log
+2019-06-07T12:32:32.660Z - detail: Starting service permissions
+2019-06-07T12:32:32.660Z - detail: Starting service health
+2019-06-07T12:32:32.660Z - detail: Starting service welcome
+2019-06-07T12:32:32.661Z - detail: Starting service password-auth-ui
+2019-06-07T12:32:32.661Z - detail: Starting service stats
+2019-06-07T12:32:32.664Z - detail: Started service welcome
+2019-06-07T12:32:32.664Z - detail: Started service stats
+2019-06-07T12:32:32.664Z - detail: Started service health
+2019-06-07T12:32:32.664Z - detail: Started service password-auth-ui
+2019-06-07T12:32:32.668Z - debug: [sync/stats] Started listening for stats on 127.0.0.1:57135
+2019-06-07T12:32:32.674Z - info: [sync] Precheck: Started ([realm-core-5.19.1], [realm-sync-4.4.4])
+2019-06-07T12:32:32.674Z - info: [sync] Precheck: Build mode: Release
+2019-06-07T12:32:32.674Z - info: [sync] Precheck: Log level: info
+2019-06-07T12:32:32.674Z - info: [sync] Precheck: Encryption: No
+2019-06-07T12:32:32.674Z - info: [sync] Precheck: Searching for Realm files in '/Users/juanmanuel.gentili/Development/Realm/offline-first-poc/data/sync/user_data'
+2019-06-07T12:32:32.679Z - info: [sync] Precheck: Number of files that will be checked: 8
+2019-06-07T12:32:32.679Z - info: [sync] Precheck: Number of files without associated partial views: 8
+2019-06-07T12:32:32.679Z - info: [sync] Precheck: Number of files with associated partial views: 0
+2019-06-07T12:32:32.679Z - info: [sync] Precheck: Number of files functioning as partial views: 0
+2019-06-07T12:32:32.680Z - info: [sync] Precheck: Perform verification: No
+2019-06-07T12:32:32.680Z - info: [sync] Precheck: Perform compaction: No
+2019-06-07T12:32:32.680Z - info: [sync] Precheck: Perform partial sync: No
+2019-06-07T12:32:32.680Z - info: [sync] Precheck: Run checks in child process: No
+2019-06-07T12:32:32.680Z - info: [sync] Precheck: All files checked in 0ms (0ms/file)
+2019-06-07T12:32:32.680Z - info: [sync] Precheck: Number of files with success: 8
+2019-06-07T12:32:32.680Z - info: [sync] Precheck: Number of files where partial sync failed: 0
+2019-06-07T12:32:32.681Z - info: [sync] Precheck: Number of files that caused a crash: 0
+2019-06-07T12:32:32.681Z - info: [sync] Precheck: Complete
+2019-06-07T12:32:32.681Z - info: [sync] No client file blacklists loaded ('/Users/juanmanuel.gentili/Development/Realm/offline-first-poc/data/sync/client_file_blacklists' was not found)
+2019-06-07T12:32:32.689Z - info: [sync] Realm sync server started ([realm-core-5.19.1], [realm-sync-4.4.4])
+2019-06-07T12:32:32.689Z - info: [sync] Supported protocol versions: 22-27
+2019-06-07T12:32:32.690Z - info: [sync] Platform: macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64
+2019-06-07T12:32:32.690Z - info: [sync] Build mode: Release
+2019-06-07T12:32:32.690Z - info: [sync] Directory holding persistent state: /Users/juanmanuel.gentili/Development/Realm/offline-first-poc/data/sync/user_data
+2019-06-07T12:32:32.690Z - info: [sync] Maximum number of open files: 256
+2019-06-07T12:32:32.690Z - info: [sync] Encryption: No
+2019-06-07T12:32:32.690Z - info: [sync] Cluster mode: Root node
+2019-06-07T12:32:32.690Z - info: [sync] Backup mode: disabled
+2019-06-07T12:32:32.690Z - info: [sync] Log level: info
+2019-06-07T12:32:32.691Z - info: [sync] Disable sync to disk: No
+2019-06-07T12:32:32.691Z - info: [sync] Download compaction: Yes
+2019-06-07T12:32:32.691Z - info: [sync] Download bootstrap caching: No
+2019-06-07T12:32:32.691Z - info: [sync] Max download size: 16777216 bytes
+2019-06-07T12:32:32.691Z - info: [sync] Max upload backlog: 4294967295 bytes
+2019-06-07T12:32:32.691Z - info: [sync] HTTP request timeout: 600000 ms
+2019-06-07T12:32:32.691Z - info: [sync] HTTP response timeout: 600000 ms
+2019-06-07T12:32:32.691Z - info: [sync] Connection reaper timeout: 1800000 ms
+2019-06-07T12:32:32.692Z - info: [sync] Connection reaper interval: 60000 ms
+2019-06-07T12:32:32.692Z - info: [sync] Connection soft close timeout: 600000 ms
+2019-06-07T12:32:32.692Z - info: [sync] State realm dir: /Users/juanmanuel.gentili/Development/Realm/offline-first-poc/data/sync/state_realm_dir
+2019-06-07T12:32:32.692Z - info: [sync] Max number of state realm threads: 4
+2019-06-07T12:32:32.692Z - info: [sync] History compaction: Enabled (interval=3600s, time_to_live=9223372036854775807s)
+2019-06-07T12:32:32.692Z - info: [sync] Recompute and report Realm state sizes: No
+2019-06-07T12:32:32.692Z - info: [sync] Number of client file blacklists: 0 (0 client files in total)
+2019-06-07T12:32:32.692Z - info: [sync] Partial sync completer: Enabled (sentry='/Users/juanmanuel.gentili/Development/Realm/offline-first-poc/data/sync/var/psync_completer_sentry')
+2019-06-07T12:32:32.692Z - info: [sync] Maximum number of auxiliary partial sync worker threads: 0
+2019-06-07T12:32:32.693Z - debug: Opening realm at /__configuration: 127.0.0.1:49698
+2019-06-07T12:32:32.708Z - debug: Opening realm at /__admin: 127.0.0.1:49698
+2019-06-07T12:32:32.711Z - detail: Started service sync
+2019-06-07T12:32:32.711Z - info: [sync] State Realm initialization and reset done
+2019-06-07T12:32:32.712Z - info: [sync] Listening on 127.0.0.1:49698 (max backlog is 128, non-TLS)
+2019-06-07T12:32:32.719Z - detail: sync-client: Connection[1]: Connected to endpoint '127.0.0.1:49698' (from '127.0.0.1:49701') level=info
+2019-06-07T12:32:32.724Z - info: [sync] Sync Connection[3]: Session[1]: Client info: (path='/__configuration', user='__admin', from=[127.0.0.1]:49701, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T12:32:32.724Z - info: [sync] Sync Connection[3]: Session[1]: Bound to client file (client_file_ident=2)
+2019-06-07T12:32:32.726Z - info: [sync] Sync Connection[3]: Session[2]: Client info: (path='/__admin', user='__admin', from=[127.0.0.1]:49701, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T12:32:32.727Z - info: [sync] Sync Connection[3]: Session[2]: Bound to client file (client_file_ident=2)
+2019-06-07T12:32:32.727Z - debug: Open progress for realm at /__configuration: 887/887
+2019-06-07T12:32:32.731Z - debug: Open progress for realm at /__admin: 3023/3023
+2019-06-07T12:32:32.732Z - detail: Opened realm at /__configuration
+2019-06-07T12:32:32.732Z - detail: Opened realm at /__admin
+2019-06-07T12:32:32.741Z - detail: Started service log
+2019-06-07T12:32:32.742Z - debug: Opening realm at /__wildcardpermissions: 127.0.0.1:49698
+2019-06-07T12:32:32.744Z - debug: Opening realm at /__revocation: 127.0.0.1:49698
+2019-06-07T12:32:32.746Z - detail: Started service realms
+2019-06-07T12:32:32.750Z - info: [sync] Sync Connection[3]: Session[3]: Client info: (path='/__configuration', user='__admin', from=[127.0.0.1]:49701, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T12:32:32.750Z - info: [sync] Sync Connection[3]: Session[3]: Bound to client file (client_file_ident=2)
+2019-06-07T12:32:32.752Z - info: [sync] Sync Connection[3]: Session[4]: Client info: (path='/__admin', user='__admin', from=[127.0.0.1]:49701, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T12:32:32.752Z - info: [sync] Sync Connection[3]: Session[4]: Bound to client file (client_file_ident=2)
+2019-06-07T12:32:32.755Z - info: [sync] Sync Connection[3]: Session[5]: Client info: (path='/__wildcardpermissions', user='__admin', from=[127.0.0.1]:49701, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T12:32:32.755Z - info: [sync] Sync Connection[3]: Session[5]: Bound to client file (client_file_ident=2)
+2019-06-07T12:32:32.758Z - info: [sync] Sync Connection[3]: Session[6]: Client info: (path='/__revocation', user='__admin', from=[127.0.0.1]:49701, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T12:32:32.759Z - info: [sync] Sync Connection[3]: Session[6]: Bound to client file (client_file_ident=2)
+2019-06-07T12:32:32.760Z - debug: Open progress for realm at /__wildcardpermissions: 263/263
+2019-06-07T12:32:32.761Z - debug: Open progress for realm at /__revocation: 64/64
+2019-06-07T12:32:32.766Z - detail: Opened realm at /__wildcardpermissions
+2019-06-07T12:32:32.775Z - detail: Started service permissions
+2019-06-07T12:32:32.776Z - detail: Opened realm at /__revocation
+2019-06-07T12:32:32.781Z - detail: [auth] Starting auth provider 'password'
+2019-06-07T12:32:32.782Z - detail: [auth] Starting auth provider 'anonymous'
+2019-06-07T12:32:32.782Z - detail: [auth] Starting auth provider 'nickname'
+2019-06-07T12:32:32.783Z - warn: [auth] The 'Nickname' auth provider has been enabled. This provider is not secure and should never be used in production deployments. If you're still developing your application and experimenting, it is not a problem, but if this instance is hosting production data, please disable it immediately.
+2019-06-07T12:32:32.821Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin HTTP/1.1 200 74 - 16.934 ms
+2019-06-07T12:32:32.822Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__password?shouldCreate=true&realmType=full HTTP/1.1 200 77 - 16.387 ms
+2019-06-07T12:32:32.823Z - info: [sync] Sync Connection[3]: Session[7]: Client info: (path='/__wildcardpermissions', user='__admin', from=[127.0.0.1]:49701, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T12:32:32.823Z - info: [sync] Sync Connection[3]: Session[7]: Bound to client file (client_file_ident=2)
+2019-06-07T12:32:32.823Z - info: [sync] Sync Connection[3]: Session[8]: Client info: (path='/__revocation', user='__admin', from=[127.0.0.1]:49701, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T12:32:32.823Z - info: [sync] Sync Connection[3]: Session[8]: Bound to client file (client_file_ident=2)
+2019-06-07T12:32:32.831Z - debug: Obtained sync label for realm at /__password: default
+2019-06-07T12:32:32.831Z - debug: Opening realm at /__password: 127.0.0.1:49698
+2019-06-07T12:32:32.834Z - detail: sync-client: Connection[2]: Connected to endpoint '0.0.0.0:9080' (from '127.0.0.1:49710') level=info
+2019-06-07T12:32:32.838Z - debug: [0]: New connection from client at 127.0.0.1:49710
+2019-06-07T12:32:32.844Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=false HTTP/1.1 200 74 - 0.948 ms
+2019-06-07T12:32:32.844Z - info: [sync] Sync Connection[3]: Session[10]: Client info: (path='/__password', user='__admin', from=[127.0.0.1]:49701, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T12:32:32.846Z - debug: new target for default is http://127.0.0.1:49698
+2019-06-07T12:32:32.847Z - debug: Repeated 'available' message from service watch
+2019-06-07T12:32:32.847Z - debug: new target for default is http://127.0.0.1:49698
+2019-06-07T12:32:32.847Z - debug: The Realm Object Server proxy has 1 open connections to the 'default' sync server
+2019-06-07T12:32:32.854Z - info: [sync] Sync Connection[3]: Session[10]: Bound to client file (client_file_ident=2)
+2019-06-07T12:32:32.856Z - debug: Open progress for realm at /__password: 2368/2368
+2019-06-07T12:32:32.856Z - detail: Opened realm at /__password
+2019-06-07T12:32:32.858Z - detail: [0]: Connection to sync server established. src=127.0.0.1:49713 dst=127.0.0.1:49698
+2019-06-07T12:32:32.874Z - info: [sync] Sync Connection[11]: Session[9]: Client info: (path='/__admin', user='__admin', from=[127.0.0.1]:49713, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T12:32:32.875Z - info: [sync] Sync Connection[11]: Session[9]: Bound to client file (client_file_ident=3)
+2019-06-07T12:32:32.875Z - info: [sync] Sync Connection[3]: Session[11]: Client info: (path='/__password', user='__admin', from=[127.0.0.1]:49701, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T12:32:32.875Z - info: [sync] Sync Connection[3]: Session[11]: Bound to client file (client_file_ident=2)
+2019-06-07T12:32:32.886Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin HTTP/1.1 200 74 - 2.146 ms
+2019-06-07T12:32:32.891Z - info: [sync] Sync Connection[11]: Session[12]: Client info: (path='/__admin', user='__admin', from=[127.0.0.1]:49713, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T12:32:32.891Z - info: [sync] Sync Connection[11]: Session[12]: Bound to client file (client_file_ident=4)
+2019-06-07T12:32:32.969Z - info: [auth] Autocreated admin user: realm-admin
+2019-06-07T12:32:32.970Z - detail: Started service auth
+2019-06-07T12:32:32.970Z - detail: All services have started
+2019-06-07T12:32:32.977Z - detail: TokenValidator started
+2019-06-07T12:32:32.978Z - info: Realm Object Server has started and is listening on http://0.0.0.0:9080
+2019-06-07T12:32:43.001Z - debug: Open files in Realm Object Server: {"regular":65,"directory":0,"character-device":6,"block-device":0,"pipe":88,"symbolic-link":0,"socket":11,"unknown":0,"total":170}
+2019-06-07T12:33:27.702Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 5.775 ms
+2019-06-07T12:33:27.708Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 21.108 ms
+2019-06-07T12:33:27.835Z - debug: [1]: New connection from client at 127.0.0.1:49748
+2019-06-07T12:33:27.837Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-07T12:33:27.841Z - detail: [1]: Connection to sync server established. src=127.0.0.1:49749 dst=127.0.0.1:49698
+2019-06-07T12:33:27.847Z - info: [sync] Sync Connection[13]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:49749, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-07T12:33:27.848Z - info: [sync] Sync Connection[13]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-07T12:33:33.010Z - debug: Open files in Realm Object Server: {"regular":69,"directory":0,"character-device":6,"block-device":0,"pipe":90,"symbolic-link":0,"socket":14,"unknown":0,"total":179}
+2019-06-07T12:35:03.029Z - debug: Open files in Realm Object Server: {"regular":70,"directory":0,"character-device":6,"block-device":0,"pipe":92,"symbolic-link":0,"socket":14,"unknown":0,"total":182}
+2019-06-07T12:35:06.186Z - detail: [1]: Connection to sync server closed.
+2019-06-07T12:35:06.188Z - debug: [1]: Closed connection to client 127.0.0.1:49748
+2019-06-07T12:35:06.188Z - debug: The Realm Object Server proxy has 1 open connections to the 'default' sync server
+2019-06-07T12:35:13.031Z - debug: Open files in Realm Object Server: {"regular":70,"directory":0,"character-device":6,"block-device":0,"pipe":92,"symbolic-link":0,"socket":11,"unknown":0,"total":179}
+2019-06-07T12:35:21.941Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 794 - 83.850 ms
+2019-06-07T12:35:22.200Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 0.974 ms
+2019-06-07T12:35:22.204Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 6.496 ms
+2019-06-07T12:35:22.209Z - debug: [2]: New connection from client at 127.0.0.1:49831
+2019-06-07T12:35:22.209Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-07T12:35:22.211Z - detail: [2]: Connection to sync server established. src=127.0.0.1:49832 dst=127.0.0.1:49698
+2019-06-07T12:35:22.213Z - info: [sync] Sync Connection[14]: Session[1]: Client info: (path='/__admin', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:49832, protocol=22) 
+2019-06-07T12:35:22.213Z - info: [sync] Sync Connection[14]: Session[1]: Bound to client file (client_file_ident=7)
+2019-06-07T12:35:22.267Z - debug: [http] 127.0.0.1 - GET /realms/files/%2Fdefault?shouldCreate=true&realmType=full HTTP/1.1 200 79 - 2.439 ms
+2019-06-07T12:35:22.271Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 10.139 ms
+2019-06-07T12:35:22.276Z - debug: [3]: New connection from client at 127.0.0.1:49837
+2019-06-07T12:35:22.277Z - debug: The Realm Object Server proxy has 3 open connections to the 'default' sync server
+2019-06-07T12:35:22.283Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=true&realmType=full HTTP/1.1 200 74 - 4.068 ms
+2019-06-07T12:35:22.285Z - detail: [3]: Connection to sync server established. src=127.0.0.1:49839 dst=127.0.0.1:49698
+2019-06-07T12:35:22.289Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 836 - 16.204 ms
+2019-06-07T12:35:22.290Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__wildcardpermissions?shouldCreate=true&realmType=full HTTP/1.1 200 88 - 5.648 ms
+2019-06-07T12:35:22.293Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 870 - 16.924 ms
+2019-06-07T12:35:22.293Z - info: [sync] Sync Connection[15]: Session[2]: Client info: (path='/default', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:49839, protocol=22) 
+2019-06-07T12:35:22.293Z - info: [sync] Sync Connection[15]: Session[2]: Bound to client file (client_file_ident=3)
+2019-06-07T12:35:22.298Z - debug: [4]: New connection from client at 127.0.0.1:49841
+2019-06-07T12:35:22.298Z - debug: The Realm Object Server proxy has 4 open connections to the 'default' sync server
+2019-06-07T12:35:22.299Z - detail: [4]: Connection to sync server established. src=127.0.0.1:49842 dst=127.0.0.1:49698
+2019-06-07T12:35:22.302Z - info: [sync] Sync Connection[16]: Session[3]: Client info: (path='/__admin', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:49842, protocol=22) 
+2019-06-07T12:35:22.302Z - info: [sync] Sync Connection[16]: Session[3]: Bound to client file (client_file_ident=8)
+2019-06-07T12:35:22.341Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__configuration?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 4.779 ms
+2019-06-07T12:35:22.342Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__metrics?shouldCreate=true&realmType=full HTTP/1.1 200 76 - 3.509 ms
+2019-06-07T12:35:22.346Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 13.698 ms
+2019-06-07T12:35:22.350Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 842 - 13.515 ms
+2019-06-07T12:35:22.387Z - debug: [5]: New connection from client at 127.0.0.1:49847
+2019-06-07T12:35:22.387Z - debug: The Realm Object Server proxy has 5 open connections to the 'default' sync server
+2019-06-07T12:35:22.389Z - debug: [6]: New connection from client at 127.0.0.1:49848
+2019-06-07T12:35:22.389Z - debug: The Realm Object Server proxy has 6 open connections to the 'default' sync server
+2019-06-07T12:35:22.390Z - detail: [5]: Connection to sync server established. src=127.0.0.1:49849 dst=127.0.0.1:49698
+2019-06-07T12:35:22.391Z - detail: [6]: Connection to sync server established. src=127.0.0.1:49850 dst=127.0.0.1:49698
+2019-06-07T12:35:22.393Z - info: [sync] Sync Connection[17]: Session[4]: Client info: (path='/__wildcardpermissions', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:49849, protocol=22) 
+2019-06-07T12:35:22.393Z - info: [sync] Sync Connection[17]: Session[4]: Bound to client file (client_file_ident=3)
+2019-06-07T12:35:22.394Z - info: [sync] Sync Connection[18]: Session[5]: Client info: (path='/__configuration', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:49850, protocol=22) 
+2019-06-07T12:35:22.394Z - info: [sync] Sync Connection[18]: Session[5]: Bound to client file (client_file_ident=3)
+2019-06-07T12:35:22.413Z - debug: [7]: New connection from client at 127.0.0.1:49851
+2019-06-07T12:35:22.414Z - debug: The Realm Object Server proxy has 7 open connections to the 'default' sync server
+2019-06-07T12:35:22.420Z - detail: [7]: Connection to sync server established. src=127.0.0.1:49852 dst=127.0.0.1:49698
+2019-06-07T12:35:22.428Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__password?shouldCreate=true&realmType=full HTTP/1.1 200 77 - 5.021 ms
+2019-06-07T12:35:22.429Z - info: [sync] Sync Connection[19]: Session[6]: Client info: (path='/__metrics', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:49852, protocol=22) 
+2019-06-07T12:35:22.430Z - info: [sync] Sync Connection[19]: Session[6]: Bound to client file (client_file_ident=4)
+2019-06-07T12:35:22.433Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 5.469 ms
+2019-06-07T12:35:22.436Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 843 - 20.450 ms
+2019-06-07T12:35:22.440Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 18.099 ms
+2019-06-07T12:35:22.441Z - debug: [8]: New connection from client at 127.0.0.1:49856
+2019-06-07T12:35:22.442Z - debug: The Realm Object Server proxy has 8 open connections to the 'default' sync server
+2019-06-07T12:35:22.443Z - detail: [8]: Connection to sync server established. src=127.0.0.1:49857 dst=127.0.0.1:49698
+2019-06-07T12:35:22.445Z - info: [sync] Sync Connection[20]: Session[7]: Client info: (path='/__password', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:49857, protocol=22) 
+2019-06-07T12:35:22.445Z - info: [sync] Sync Connection[20]: Session[7]: Bound to client file (client_file_ident=3)
+2019-06-07T12:35:22.481Z - debug: [9]: New connection from client at 127.0.0.1:49858
+2019-06-07T12:35:22.482Z - debug: The Realm Object Server proxy has 9 open connections to the 'default' sync server
+2019-06-07T12:35:22.484Z - detail: [9]: Connection to sync server established. src=127.0.0.1:49860 dst=127.0.0.1:49698
+2019-06-07T12:35:22.486Z - info: [sync] Sync Connection[21]: Session[8]: Client info: (path='/OfflineFirstPOC', user='e1885b4f100b4d5011f48c048374b6b0', from=[127.0.0.1]:49860, protocol=22) 
+2019-06-07T12:35:22.486Z - info: [sync] Sync Connection[21]: Session[8]: Bound to client file (client_file_ident=5)
+2019-06-07T12:35:23.039Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":96,"symbolic-link":0,"socket":37,"unknown":0,"total":217}
+2019-06-07T12:35:30.880Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 1.082 ms
+2019-06-07T12:35:30.883Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 5.630 ms
+2019-06-07T12:35:30.951Z - debug: [10]: New connection from client at 127.0.0.1:50027
+2019-06-07T12:35:30.952Z - debug: The Realm Object Server proxy has 10 open connections to the 'default' sync server
+2019-06-07T12:35:30.953Z - detail: [10]: Connection to sync server established. src=127.0.0.1:50028 dst=127.0.0.1:49698
+2019-06-07T12:35:30.956Z - info: [sync] Sync Connection[22]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:50028, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-07T12:35:30.957Z - info: [sync] Sync Connection[22]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-07T12:35:33.038Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":96,"symbolic-link":0,"socket":39,"unknown":0,"total":219}
+2019-06-07T12:35:43.061Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":96,"symbolic-link":0,"socket":38,"unknown":0,"total":218}
+2019-06-07T12:58:50.894Z - detail: [10]: Connection to sync server closed.
+2019-06-07T12:58:50.898Z - debug: [10]: Closed connection to client 127.0.0.1:50027
+2019-06-07T12:58:50.899Z - debug: The Realm Object Server proxy has 9 open connections to the 'default' sync server
+2019-06-07T12:58:50.923Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 3.257 ms
+2019-06-07T12:58:50.927Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 10.915 ms
+2019-06-07T12:58:50.984Z - debug: [11]: New connection from client at 127.0.0.1:60609
+2019-06-07T12:58:50.985Z - debug: The Realm Object Server proxy has 10 open connections to the 'default' sync server
+2019-06-07T12:58:50.988Z - detail: [11]: Connection to sync server established. src=127.0.0.1:60610 dst=127.0.0.1:49698
+2019-06-07T12:58:50.990Z - info: [sync] Sync Connection[23]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:60610, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-07T12:58:50.991Z - info: [sync] Sync Connection[23]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-07T12:58:53.492Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":96,"symbolic-link":0,"socket":39,"unknown":0,"total":219}
+2019-06-07T12:59:03.500Z - debug: Open files in Realm Object Server: {"regular":78,"directory":0,"character-device":6,"block-device":0,"pipe":96,"symbolic-link":0,"socket":38,"unknown":0,"total":218}
+2019-06-07T13:09:07.807Z - info: Got signal SIGINT. Shutting down
+2019-06-07T13:09:07.811Z - detail: Closed realm at /__password
+2019-06-07T13:09:07.811Z - detail: TokenValidator stopped
+2019-06-07T13:09:07.811Z - detail: Stopping service sync
+2019-06-07T13:09:07.812Z - debug: ignore 'unavailable' message from service watch
+2019-06-07T13:09:07.812Z - detail: Stopping service auth
+2019-06-07T13:09:07.812Z - detail: Stopping service realms
+2019-06-07T13:09:07.812Z - detail: Stopping service log
+2019-06-07T13:09:07.812Z - detail: Stopping service permissions
+2019-06-07T13:09:07.812Z - detail: Stopping service health
+2019-06-07T13:09:07.812Z - detail: Stopping service welcome
+2019-06-07T13:09:07.812Z - detail: Stopping service password-auth-ui
+2019-06-07T13:09:07.812Z - detail: Stopping service stats
+2019-06-07T13:09:07.814Z - detail: Closed realm at /__revocation
+2019-06-07T13:09:07.815Z - detail: Closed realm at /__wildcardpermissions
+2019-06-07T13:09:07.815Z - detail: Stopped service health
+2019-06-07T13:09:07.815Z - detail: Stopped service welcome
+2019-06-07T13:09:07.815Z - detail: Stopped service password-auth-ui
+2019-06-07T13:09:07.815Z - detail: Stopped service stats
+2019-06-07T13:09:07.816Z - detail: Closed realm at /__configuration
+2019-06-07T13:09:07.822Z - detail: Closed realm at /__admin
+2019-06-07T13:09:07.823Z - detail: Stopped service realms
+2019-06-07T13:09:07.823Z - detail: Stopped service log
+2019-06-07T13:09:07.823Z - detail: Stopped service permissions
+2019-06-07T13:09:07.823Z - detail: Stopped service auth
+2019-06-07T13:09:07.824Z - debug: destroyed connection from 127.0.0.1:49710
+2019-06-07T13:09:07.824Z - debug: destroyed connection from 127.0.0.1:49831
+2019-06-07T13:09:07.824Z - debug: destroyed connection from 127.0.0.1:49837
+2019-06-07T13:09:07.824Z - debug: destroyed connection from 127.0.0.1:49841
+2019-06-07T13:09:07.824Z - debug: destroyed connection from 127.0.0.1:49847
+2019-06-07T13:09:07.824Z - debug: destroyed connection from 127.0.0.1:49848
+2019-06-07T13:09:07.824Z - debug: destroyed connection from 127.0.0.1:49851
+2019-06-07T13:09:07.825Z - debug: destroyed connection from 127.0.0.1:49856
+2019-06-07T13:09:07.825Z - debug: destroyed connection from 127.0.0.1:49858
+2019-06-07T13:09:07.825Z - debug: destroyed connection from 127.0.0.1:60609
+2019-06-07T13:10:18.094Z - info: Realm Object Server version 3.21.1 is starting
+2019-06-07T13:10:18.179Z - detail: Starting service sync
+2019-06-07T13:10:18.180Z - info: [sync] Configuring SyncService with a custom dataPath is deprecated and will be removed in a future version and the value will default to 'sync', relative to the server's dataPath.
+2019-06-07T13:10:18.181Z - detail: Starting service auth
+2019-06-07T13:10:18.183Z - detail: Starting service realms
+2019-06-07T13:10:18.183Z - detail: Starting service log
+2019-06-07T13:10:18.185Z - detail: Starting service permissions
+2019-06-07T13:10:18.185Z - detail: Starting service health
+2019-06-07T13:10:18.185Z - detail: Starting service welcome
+2019-06-07T13:10:18.186Z - detail: Starting service password-auth-ui
+2019-06-07T13:10:18.186Z - detail: Starting service stats
+2019-06-07T13:10:18.188Z - detail: Started service welcome
+2019-06-07T13:10:18.189Z - detail: Started service stats
+2019-06-07T13:10:18.190Z - detail: Started service health
+2019-06-07T13:10:18.190Z - detail: Started service password-auth-ui
+2019-06-07T13:10:18.193Z - debug: [sync/stats] Started listening for stats on 127.0.0.1:56395
+2019-06-07T13:10:18.196Z - info: [sync] Precheck: Started ([realm-core-5.19.1], [realm-sync-4.4.4])
+2019-06-07T13:10:18.196Z - info: [sync] Precheck: Build mode: Release
+2019-06-07T13:10:18.197Z - info: [sync] Precheck: Log level: info
+2019-06-07T13:10:18.197Z - info: [sync] Precheck: Encryption: No
+2019-06-07T13:10:18.197Z - info: [sync] Precheck: Searching for Realm files in '/Users/juanmanuel.gentili/Development/MyStuff/Xamarin/xamarin-playground/offline-first-poc-with-realm/offline-first-poc/data/sync/user_data'
+2019-06-07T13:10:18.197Z - info: [sync] Precheck: Number of files that will be checked: 8
+2019-06-07T13:10:18.197Z - info: [sync] Precheck: Number of files without associated partial views: 8
+2019-06-07T13:10:18.197Z - info: [sync] Precheck: Number of files with associated partial views: 0
+2019-06-07T13:10:18.198Z - info: [sync] Precheck: Number of files functioning as partial views: 0
+2019-06-07T13:10:18.198Z - info: [sync] Precheck: Perform verification: No
+2019-06-07T13:10:18.198Z - info: [sync] Precheck: Perform compaction: No
+2019-06-07T13:10:18.198Z - info: [sync] Precheck: Perform partial sync: No
+2019-06-07T13:10:18.198Z - info: [sync] Precheck: Run checks in child process: No
+2019-06-07T13:10:18.198Z - info: [sync] Precheck: All files checked in 0ms (0ms/file)
+2019-06-07T13:10:18.199Z - info: [sync] Precheck: Number of files with success: 8
+2019-06-07T13:10:18.199Z - info: [sync] Precheck: Number of files where partial sync failed: 0
+2019-06-07T13:10:18.199Z - info: [sync] Precheck: Number of files that caused a crash: 0
+2019-06-07T13:10:18.199Z - info: [sync] Precheck: Complete
+2019-06-07T13:10:18.199Z - info: [sync] No client file blacklists loaded ('/Users/juanmanuel.gentili/Development/MyStuff/Xamarin/xamarin-playground/offline-first-poc-with-realm/offline-first-poc/data/sync/client_file_blacklists' was not found)
+2019-06-07T13:10:18.211Z - info: [sync] Realm sync server started ([realm-core-5.19.1], [realm-sync-4.4.4])
+2019-06-07T13:10:18.211Z - info: [sync] Supported protocol versions: 22-27
+2019-06-07T13:10:18.211Z - info: [sync] Platform: macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64
+2019-06-07T13:10:18.211Z - info: [sync] Build mode: Release
+2019-06-07T13:10:18.212Z - info: [sync] Directory holding persistent state: /Users/juanmanuel.gentili/Development/MyStuff/Xamarin/xamarin-playground/offline-first-poc-with-realm/offline-first-poc/data/sync/user_data
+2019-06-07T13:10:18.212Z - info: [sync] Maximum number of open files: 256
+2019-06-07T13:10:18.212Z - info: [sync] Encryption: No
+2019-06-07T13:10:18.212Z - info: [sync] Cluster mode: Root node
+2019-06-07T13:10:18.212Z - info: [sync] Backup mode: disabled
+2019-06-07T13:10:18.212Z - info: [sync] Log level: info
+2019-06-07T13:10:18.212Z - info: [sync] Disable sync to disk: No
+2019-06-07T13:10:18.212Z - info: [sync] Download compaction: Yes
+2019-06-07T13:10:18.213Z - info: [sync] Download bootstrap caching: No
+2019-06-07T13:10:18.213Z - info: [sync] Max download size: 16777216 bytes
+2019-06-07T13:10:18.213Z - info: [sync] Max upload backlog: 4294967295 bytes
+2019-06-07T13:10:18.213Z - info: [sync] HTTP request timeout: 600000 ms
+2019-06-07T13:10:18.213Z - info: [sync] HTTP response timeout: 600000 ms
+2019-06-07T13:10:18.213Z - info: [sync] Connection reaper timeout: 1800000 ms
+2019-06-07T13:10:18.213Z - info: [sync] Connection reaper interval: 60000 ms
+2019-06-07T13:10:18.213Z - info: [sync] Connection soft close timeout: 600000 ms
+2019-06-07T13:10:18.214Z - info: [sync] State realm dir: /Users/juanmanuel.gentili/Development/MyStuff/Xamarin/xamarin-playground/offline-first-poc-with-realm/offline-first-poc/data/sync/state_realm_dir
+2019-06-07T13:10:18.214Z - info: [sync] Max number of state realm threads: 4
+2019-06-07T13:10:18.214Z - info: [sync] History compaction: Enabled (interval=3600s, time_to_live=9223372036854775807s)
+2019-06-07T13:10:18.214Z - info: [sync] Recompute and report Realm state sizes: No
+2019-06-07T13:10:18.214Z - info: [sync] Number of client file blacklists: 0 (0 client files in total)
+2019-06-07T13:10:18.214Z - info: [sync] Partial sync completer: Enabled (sentry='/Users/juanmanuel.gentili/Development/MyStuff/Xamarin/xamarin-playground/offline-first-poc-with-realm/offline-first-poc/data/sync/var/psync_completer_sentry')
+2019-06-07T13:10:18.214Z - info: [sync] Maximum number of auxiliary partial sync worker threads: 0
+2019-06-07T13:10:18.215Z - debug: Opening realm at /__configuration: 127.0.0.1:57411
+2019-06-07T13:10:18.231Z - debug: Opening realm at /__admin: 127.0.0.1:57411
+2019-06-07T13:10:18.233Z - detail: Started service sync
+2019-06-07T13:10:18.234Z - info: [sync] State Realm initialization and reset done
+2019-06-07T13:10:18.235Z - info: [sync] Listening on 127.0.0.1:57411 (max backlog is 128, non-TLS)
+2019-06-07T13:10:18.244Z - detail: sync-client: Connection[1]: Connected to endpoint '127.0.0.1:57411' (from '127.0.0.1:57415') level=info
+2019-06-07T13:10:18.247Z - info: [sync] Sync Connection[3]: Session[1]: Client info: (path='/__configuration', user='__admin', from=[127.0.0.1]:57415, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T13:10:18.247Z - info: [sync] Sync Connection[3]: Session[1]: Bound to client file (client_file_ident=2)
+2019-06-07T13:10:18.249Z - info: [sync] Sync Connection[3]: Session[2]: Client info: (path='/__admin', user='__admin', from=[127.0.0.1]:57415, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T13:10:18.250Z - info: [sync] Sync Connection[3]: Session[2]: Bound to client file (client_file_ident=2)
+2019-06-07T13:10:18.252Z - debug: Open progress for realm at /__configuration: 887/887
+2019-06-07T13:10:18.256Z - debug: Open progress for realm at /__admin: 3238/3238
+2019-06-07T13:10:18.259Z - detail: Opened realm at /__configuration
+2019-06-07T13:10:18.259Z - detail: Opened realm at /__admin
+2019-06-07T13:10:18.267Z - detail: Started service log
+2019-06-07T13:10:18.269Z - debug: Opening realm at /__wildcardpermissions: 127.0.0.1:57411
+2019-06-07T13:10:18.270Z - debug: Opening realm at /__revocation: 127.0.0.1:57411
+2019-06-07T13:10:18.272Z - detail: Started service realms
+2019-06-07T13:10:18.276Z - info: [sync] Sync Connection[3]: Session[3]: Client info: (path='/__configuration', user='__admin', from=[127.0.0.1]:57415, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T13:10:18.276Z - info: [sync] Sync Connection[3]: Session[3]: Bound to client file (client_file_ident=2)
+2019-06-07T13:10:18.277Z - info: [sync] Sync Connection[3]: Session[4]: Client info: (path='/__admin', user='__admin', from=[127.0.0.1]:57415, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T13:10:18.278Z - info: [sync] Sync Connection[3]: Session[4]: Bound to client file (client_file_ident=2)
+2019-06-07T13:10:18.280Z - info: [sync] Sync Connection[3]: Session[5]: Client info: (path='/__wildcardpermissions', user='__admin', from=[127.0.0.1]:57415, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T13:10:18.280Z - info: [sync] Sync Connection[3]: Session[5]: Bound to client file (client_file_ident=2)
+2019-06-07T13:10:18.283Z - info: [sync] Sync Connection[3]: Session[6]: Client info: (path='/__revocation', user='__admin', from=[127.0.0.1]:57415, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T13:10:18.283Z - info: [sync] Sync Connection[3]: Session[6]: Bound to client file (client_file_ident=2)
+2019-06-07T13:10:18.284Z - debug: Open progress for realm at /__wildcardpermissions: 263/263
+2019-06-07T13:10:18.288Z - debug: Open progress for realm at /__revocation: 64/64
+2019-06-07T13:10:18.288Z - detail: Opened realm at /__revocation
+2019-06-07T13:10:18.293Z - detail: [auth] Starting auth provider 'password'
+2019-06-07T13:10:18.294Z - detail: [auth] Starting auth provider 'anonymous'
+2019-06-07T13:10:18.294Z - detail: [auth] Starting auth provider 'nickname'
+2019-06-07T13:10:18.296Z - warn: [auth] The 'Nickname' auth provider has been enabled. This provider is not secure and should never be used in production deployments. If you're still developing your application and experimenting, it is not a problem, but if this instance is hosting production data, please disable it immediately.
+2019-06-07T13:10:18.311Z - detail: Opened realm at /__wildcardpermissions
+2019-06-07T13:10:18.320Z - detail: Started service permissions
+2019-06-07T13:10:18.342Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__password?shouldCreate=true&realmType=full HTTP/1.1 200 77 - 12.989 ms
+2019-06-07T13:10:18.342Z - info: [sync] Sync Connection[3]: Session[7]: Client info: (path='/__revocation', user='__admin', from=[127.0.0.1]:57415, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T13:10:18.343Z - info: [sync] Sync Connection[3]: Session[7]: Bound to client file (client_file_ident=2)
+2019-06-07T13:10:18.343Z - info: [sync] Sync Connection[3]: Session[8]: Client info: (path='/__wildcardpermissions', user='__admin', from=[127.0.0.1]:57415, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T13:10:18.343Z - info: [sync] Sync Connection[3]: Session[8]: Bound to client file (client_file_ident=2)
+2019-06-07T13:10:18.345Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin HTTP/1.1 200 74 - 12.644 ms
+2019-06-07T13:10:18.350Z - debug: Obtained sync label for realm at /__password: default
+2019-06-07T13:10:18.350Z - debug: Opening realm at /__password: 127.0.0.1:57411
+2019-06-07T13:10:18.360Z - detail: sync-client: Connection[2]: Connected to endpoint '0.0.0.0:9080' (from '127.0.0.1:57427') level=info
+2019-06-07T13:10:18.364Z - debug: [0]: New connection from client at 127.0.0.1:57427
+2019-06-07T13:10:18.366Z - info: [sync] Sync Connection[3]: Session[10]: Client info: (path='/__password', user='__admin', from=[127.0.0.1]:57415, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T13:10:18.366Z - info: [sync] Sync Connection[3]: Session[10]: Bound to client file (client_file_ident=2)
+2019-06-07T13:10:18.372Z - debug: Open progress for realm at /__password: 3399/3399
+2019-06-07T13:10:18.373Z - detail: Opened realm at /__password
+2019-06-07T13:10:18.374Z - detail: Started service auth
+2019-06-07T13:10:18.374Z - detail: All services have started
+2019-06-07T13:10:18.374Z - detail: TokenValidator started
+2019-06-07T13:10:18.375Z - info: Realm Object Server has started and is listening on http://0.0.0.0:9080
+2019-06-07T13:10:18.378Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin?shouldCreate=false HTTP/1.1 200 74 - 1.506 ms
+2019-06-07T13:10:18.381Z - debug: new target for default is http://127.0.0.1:57411
+2019-06-07T13:10:18.383Z - debug: Repeated 'available' message from service watch
+2019-06-07T13:10:18.383Z - debug: new target for default is http://127.0.0.1:57411
+2019-06-07T13:10:18.384Z - debug: The Realm Object Server proxy has 1 open connections to the 'default' sync server
+2019-06-07T13:10:18.392Z - info: [sync] Sync Connection[3]: Session[11]: Client info: (path='/__password', user='__admin', from=[127.0.0.1]:57415, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T13:10:18.392Z - info: [sync] Sync Connection[3]: Session[11]: Bound to client file (client_file_ident=2)
+2019-06-07T13:10:18.394Z - detail: [0]: Connection to sync server established. src=127.0.0.1:57431 dst=127.0.0.1:57411
+2019-06-07T13:10:18.396Z - info: [sync] Sync Connection[12]: Session[9]: Client info: (path='/__admin', user='__admin', from=[127.0.0.1]:57431, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T13:10:18.397Z - info: [sync] Sync Connection[12]: Session[9]: Bound to client file (client_file_ident=3)
+2019-06-07T13:10:18.407Z - debug: [http] 127.0.0.1 - GET /realms/files/%2F__admin HTTP/1.1 200 74 - 4.563 ms
+2019-06-07T13:10:18.411Z - info: [sync] Sync Connection[12]: Session[12]: Client info: (path='/__admin', user='__admin', from=[127.0.0.1]:57431, protocol=25) RealmSync/3.15.0 (macOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmJS/2.25.0 (node.js, v10.16.0) ROS/3.21.1
+2019-06-07T13:10:18.411Z - info: [sync] Sync Connection[12]: Session[12]: Bound to client file (client_file_ident=4)
+2019-06-07T13:10:28.400Z - debug: Open files in Realm Object Server: {"regular":62,"directory":0,"character-device":6,"block-device":0,"pipe":82,"symbolic-link":0,"socket":12,"unknown":0,"total":162}
+2019-06-07T13:10:29.986Z - debug: [1]: New connection from client at 127.0.0.1:57656
+2019-06-07T13:10:29.989Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-07T13:10:29.991Z - detail: [1]: Connection to sync server established. src=127.0.0.1:57657 dst=127.0.0.1:57411
+2019-06-07T13:10:29.996Z - detail: [1]: Connection to sync server closed.
+2019-06-07T13:10:29.997Z - debug: [1]: Closed connection to client 127.0.0.1:57656
+2019-06-07T13:10:29.998Z - debug: The Realm Object Server proxy has 1 open connections to the 'default' sync server
+2019-06-07T13:10:30.022Z - debug: [http] 127.0.0.1 - GET /realms/files/%2FOfflineFirstPOC?shouldCreate=true&realmType=full HTTP/1.1 200 82 - 2.055 ms
+2019-06-07T13:10:30.026Z - debug: [http] 127.0.0.1 - POST /auth HTTP/1.1 200 856 - 10.592 ms
+2019-06-07T13:10:30.080Z - debug: [2]: New connection from client at 127.0.0.1:57662
+2019-06-07T13:10:30.081Z - debug: The Realm Object Server proxy has 2 open connections to the 'default' sync server
+2019-06-07T13:10:30.082Z - detail: [2]: Connection to sync server established. src=127.0.0.1:57663 dst=127.0.0.1:57411
+2019-06-07T13:10:30.085Z - info: [sync] Sync Connection[14]: Session[1]: Client info: (path='/OfflineFirstPOC', user='48a6790a4a112ab2dd0e28a0577b93c0', from=[127.0.0.1]:57663, protocol=25) RealmSync/3.14.11 (iOS Darwin 18.5.0 Darwin Kernel Version 18.5.0: Mon Mar 11 20:40:32 PDT 2019; root:xnu-4903.251.3~3/RELEASE_X86_64 x86_64) RealmDotNet/3.4.0.0 (Mono 5.18.0 (explicit/74451376043))
+2019-06-07T13:10:30.085Z - info: [sync] Sync Connection[14]: Session[1]: Bound to client file (client_file_ident=3)
+2019-06-07T13:10:38.389Z - debug: Open files in Realm Object Server: {"regular":66,"directory":0,"character-device":6,"block-device":0,"pipe":84,"symbolic-link":0,"socket":14,"unknown":0,"total":170}
