@@ -23,13 +23,13 @@ namespace ParallaxCarousel.ViewModels
         public Color EndColor { get; set; }
 
         public Color BackgroundColor { get; set; }
-
-        double _position;   
+   
         public event PropertyChangedEventHandler PropertyChanged;
 
+        double _position;
         public double Position
         {
-            get { return _position; }
+            get => _position;
             set
             {
                 if (_position != value)

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
+using CarouselView.FormsPlugin.iOS;
 using Foundation;
 using UIKit;
 
@@ -24,6 +24,10 @@ namespace ParallaxCarousel.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+            CarouselViewRenderer.Init();
+
+            UIApplication.SharedApplication.SetStatusBarStyle(UIStatusBarStyle.Default, false);
 
             return base.FinishedLaunching(app, options);
         }

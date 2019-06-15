@@ -62,18 +62,7 @@ namespace ParallaxCarousel
 
             this.BindingContext = this.Wrapper;
 
-            for (int i = 0; i < this.Wrapper.Items.Count; i++)
-            {
-                var current = this.Wrapper.Items[i];
-
-                var next = this.Wrapper.Items.Count > i + 1 ? this.Wrapper.Items[i + 1] : null;
-
-
-                if (next != null)
-                    this._backgroundColors.AddRange(SetGradients(current.BackgroundColor, next.BackgroundColor, 100));
-                else
-                    this._backgroundColors.Add(current.BackgroundColor);
-            }
+            this.GenerateColors();
         }
 
         protected override void OnAppearing()
@@ -124,6 +113,22 @@ namespace ParallaxCarousel
                 {
                     this.Wrapper.Items[_currentIndex - 1].Position = -100 + this.Wrapper.SlidePosition;
                 }
+            }
+        }
+
+        private void GenerateColors()
+        {
+            for (int i = 0; i < this.Wrapper.Items.Count; i++)
+            {
+                var current = this.Wrapper.Items[i];
+
+                var next = this.Wrapper.Items.Count > i + 1 ? this.Wrapper.Items[i + 1] : null;
+
+
+                if (next != null)
+                    this._backgroundColors.AddRange(SetGradients(current.BackgroundColor, next.BackgroundColor, 100));
+                else
+                    this._backgroundColors.Add(current.BackgroundColor);
             }
         }
 

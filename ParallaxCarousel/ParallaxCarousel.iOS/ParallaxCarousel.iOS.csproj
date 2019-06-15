@@ -97,6 +97,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Renderers\BaseContentPageRenderer.cs" />
     <Compile Include="Renderers\CarouselScrollViewRenderer.cs" />
+    <Compile Include="Renderers\RoundedContentViewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
