@@ -16,14 +16,14 @@ namespace ParallaxCarousel.ViewModels
 
         public string ImageSrc { get; set; }
 
-        public string Description { get; set; }
+        public string Description { get; set; } = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium dolor sed felis varius, at elementum nunc blandit.";
 
         public Color StartColor { get; set; }
 
         public Color EndColor { get; set; }
 
         public Color BackgroundColor { get; set; }
-   
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         double _position;

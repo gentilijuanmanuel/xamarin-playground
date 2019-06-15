@@ -52,11 +52,11 @@
                                         <StackLayout>
                                              <StackLayout
                                                 Orientation="Horizontal">
-                                                <!--<Image
+                                                <Image
                                                     TranslationX="{Binding Position}"
                                                     Source="logo.png"
                                                     HeightRequest="32"
-                                                    Margin="24,24,24,0" />-->
+                                                    Margin="24,24,24,0" />
                                                 <Label
                                                     FontFamily="{StaticResource font_regular}"
                                                     TranslationX="{Binding Position}"
@@ -119,14 +119,14 @@
                                 </StackLayout>
                             </StackLayout>
                         </custom:RoundedContentView>
-                        <!--<Image
+                        <Image
                             TranslationX="{Binding Position}"
                             Source="{Binding ImageSrc}"
                             WidthRequest="300"
                             Rotation="{Binding Rotation}"
                             VerticalOptions="EndAndExpand"
                             HorizontalOptions="EndAndExpand"
-                            Margin="0,0,-56,152" />-->
+                            Margin="0,0,-56,152" />
                     </Grid>
                 </DataTemplate>
             </controls:CarouselViewControl.ItemTemplate>

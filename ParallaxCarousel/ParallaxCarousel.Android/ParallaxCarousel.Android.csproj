@@ -86,6 +86,22 @@
     <AndroidResource Include="Resources\mipmap-xxhdpi\launcher_foreground.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\logo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\oranges.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\pear.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\tomato.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\logo.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\oranges.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\pear.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\tomato.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\logo.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\oranges.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\pear.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\tomato.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\logo.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\oranges.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\pear.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\tomato.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
