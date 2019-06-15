@@ -2,7 +2,7 @@
 
 namespace ParallaxCarousel.Controls
 {
-    public class RoundedContentView : Frame
+    public class RoundedContentView : ContentView
     {
         public static readonly BindableProperty HasShadowProperty = BindableProperty.Create(
             nameof(HasShadow),
