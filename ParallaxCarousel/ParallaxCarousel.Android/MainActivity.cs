@@ -1,11 +1,7 @@
-﻿using System;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
+using CarouselView.FormsPlugin.Android;
 
 namespace ParallaxCarousel.Droid
 {
@@ -20,6 +16,8 @@ namespace ParallaxCarousel.Droid
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
+
+            CarouselViewRenderer.Init();
         }
     }
 }
