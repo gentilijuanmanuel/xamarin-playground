@@ -6,6 +6,7 @@ using Xamarin.Forms.Platform.iOS;
 [assembly: ExportRenderer(typeof(ScrollView), typeof(CarouselScrollViewRenderer))]
 namespace ParallaxCarousel.iOS.Renderers
 {
+    // This class is not used
     public class CarouselScrollViewRenderer : ScrollViewRenderer
     {
         protected override void OnElementChanged(VisualElementChangedEventArgs e)
