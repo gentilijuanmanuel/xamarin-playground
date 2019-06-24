@@ -1,4 +1,7 @@
-﻿using System.ComponentModel;
+﻿using System.Collections.Generic;
+using System.ComponentModel;
+using RoundedCornersCardsExample.ViewModels;
+using RoundedCornersCardsExample.ViewModels.Items;
 using Xamarin.Forms;
 
 namespace RoundedCornersCardsExample
@@ -11,6 +14,20 @@ namespace RoundedCornersCardsExample
         public MainPage()
         {
             InitializeComponent();
+            var viewModel = new MainViewModel
+            {
+                Cards = new List<Card>
+                {
+                    new Card { Title = "Card 1" },
+                    new Card { Title = "Card 2" },
+                    new Card { Title = "Card 3" },
+                    new Card { Title = "Card 4" },
+                    new Card { Title = "Card 5" },
+                    new Card { Title = "Card 6" }
+                }
+            };
+
+            this.BindingContext = viewModel;
         }
     }
 }

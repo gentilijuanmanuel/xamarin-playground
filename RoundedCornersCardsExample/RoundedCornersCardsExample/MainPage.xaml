@@ -10,17 +10,29 @@
     x:Class="RoundedCornersCardsExample.MainPage">
     <StackLayout
         Padding="20">
-        <controls:RoundedFrame
-            VerticalOptions="CenterAndExpand"
+        <ListView
+            VerticalOptions="StartAndExpand"
             HorizontalOptions="CenterAndExpand"
-            HeightRequest="150"
-            WidthRequest="300"
-            CornerRadius="32"
-            BackgroundColor="#FFFFFF">
-            <Label
-                Text="Rounded frame!"
-                HorizontalOptions="Center"
-                VerticalOptions="CenterAndExpand" />
-        </controls:RoundedFrame>
+            SeparatorVisibility="None"
+            RowHeight="150"
+            ItemsSource="{Binding Cards}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <controls:RoundedFrame
+                            Margin="10"
+                            VerticalOptions="FillAndExpand"
+                            HorizontalOptions="FillAndExpand"
+                            CornerRadius="32"
+                            BackgroundColor="#FFFFFF">
+                            <Label
+                                HorizontalOptions="Center"
+                                VerticalOptions="CenterAndExpand"
+                                Text="{Binding Title}" />
+                        </controls:RoundedFrame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </StackLayout>
 </ContentPage>
