@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="clr-namespace:RoundedCornersCardsExample.Controls"
+    mc:Ignorable="d"
+    BackgroundColor="Purple"
+    x:Class="RoundedCornersCardsExample.MainPage">
+    <StackLayout
+        Padding="20">
+        <controls:RoundedFrame
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand"
+            HeightRequest="150"
+            WidthRequest="300"
+            CornerRadius="32"
+            BackgroundColor="#FFFFFF">
+            <Label
+                Text="Rounded frame!"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand" />
+        </controls:RoundedFrame>
+    </StackLayout>
+</ContentPage>
