@@ -11,22 +11,9 @@ namespace RoundedCornersCardsExample
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        public MainPage(MainViewModel viewModel)
         {
             InitializeComponent();
-            var viewModel = new MainViewModel
-            {
-                Cards = new List<Card>
-                {
-                    new Card { Title = "Card 1" },
-                    new Card { Title = "Card 2" },
-                    new Card { Title = "Card 3" },
-                    new Card { Title = "Card 4" },
-                    new Card { Title = "Card 5" },
-                    new Card { Title = "Card 6" }
-                }
-            };
-
             this.BindingContext = viewModel;
         }
     }

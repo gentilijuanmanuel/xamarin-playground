@@ -1,6 +1,5 @@
-﻿using System;
+﻿using RoundedCornersCardsExample.ViewModels;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace RoundedCornersCardsExample
 {
@@ -10,7 +9,7 @@ namespace RoundedCornersCardsExample
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MainPage(new MainViewModel());
         }
 
         protected override void OnStart()

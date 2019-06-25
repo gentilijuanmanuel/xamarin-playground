@@ -11,8 +11,7 @@
     <StackLayout
         Padding="20">
         <ListView
-            VerticalOptions="StartAndExpand"
-            HorizontalOptions="CenterAndExpand"
+            BackgroundColor="Purple"
             SeparatorVisibility="None"
             RowHeight="150"
             ItemsSource="{Binding Cards}">
